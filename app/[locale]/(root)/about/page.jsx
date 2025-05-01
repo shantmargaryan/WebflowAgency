@@ -4,6 +4,7 @@ import AboutFollow from "@/components/AboutFollow";
 import AboutOurMission from "@/components/AboutOurMission";
 import Benefits from "@/components/Benefits";
 import AboutTeam from "@/components/AboutTeam";
+import { Suspense } from "react";
 
 export const metadata = {
   title: "About",
@@ -12,12 +13,14 @@ export const metadata = {
 export default async function AboutPage() {
   return (
     <>
-      <AboutHero />
-      <AboutWhoWeAre />
-      <AboutFollow />
-      <AboutOurMission />
-      <Benefits />
-      <AboutTeam />
+      <Suspense fallback={<div>Loading...</div>}>
+        <AboutHero />
+        <AboutWhoWeAre />
+        <AboutFollow />
+        <AboutOurMission />
+        <Benefits />
+        <AboutTeam />
+      </Suspense>
     </>
   );
 }

@@ -2,7 +2,7 @@
 import SingleProjectHero from "@/components/SingleProjectHero";
 import ProjectInfo from "@/components/ProjectInfo";
 import AboutProject from "@/components/AboutProject";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { use } from "react";
 
 export default function SinglePage({ params }) {
@@ -30,18 +30,20 @@ export default function SinglePage({ params }) {
 
   return (
     <>
-      <SingleProjectHero />
-      <ProjectInfo
-        id={id}
-        img={project?.path}
-        alt="project"
-        language={project?.language}
-        development={project?.development}
-        price={project?.price}
-      />
-      <AboutProject
-        {...project}
-      />
+      <Suspense fallback={<div>Loading...</div>}>
+        <SingleProjectHero />
+        <ProjectInfo
+          id={id}
+          img={project?.path}
+          alt="project"
+          language={project?.language}
+          development={project?.development}
+          price={project?.price}
+        />
+        <AboutProject
+          {...project}
+        />
+      </Suspense>
     </>
   );
 }

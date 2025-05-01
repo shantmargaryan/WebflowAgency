@@ -1,7 +1,7 @@
 "use client";
 import ProjectsHero from "@/components/ProjectsHero";
 import ProjectsItems from "@/components/ProjectsItems";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 
 
 export default function ProjectsPage() {
@@ -25,8 +25,10 @@ export default function ProjectsPage() {
 
   return (
     <>
-      <ProjectsHero />
-      <ProjectsItems posts={projects} />
+      <Suspense fallback={<div>Loading...</div>}>
+        <ProjectsHero />
+        <ProjectsItems posts={projects} />
+      </Suspense>
     </>
   );
 }
