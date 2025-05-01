@@ -1,0 +1,245 @@
+{
+  "NavLinks": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "projects": "projects",
+    "contact": "Contact"
+  },
+  "HomeHero": {
+    "title": "Building stellar websites for early startups",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "link": "View our work"
+  },
+  "HomeWork": {
+    "title": "How we work",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "link": "Get in touch with us",
+    "Items": {
+      "Strategy": "Strategy",
+      "StrategyDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "Wireframing": "Wireframing",
+      "WireframingDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "Design": "Design",
+      "DesignDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "Development": "Development",
+      "DevelopmentDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    }
+  },
+  "HomeProjects": {
+    "title": "View our projects",
+    "link": "View More",
+    "Items": {
+      "title": "Workhub office Webflow Webflow Design",
+      "secoundTitle": "Unisaas Website Design",
+      "description": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ",
+      "link": "View project"
+    }
+  },
+  "HomeFeatures": {
+    "beforeTitle": "Features",
+    "title": "Design that solves problems, one product at a time",
+    "Items": {
+      "UsesClientFirst": "Uses Client First",
+      "UsesClientFirstDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "TwoFreeRevisionRound": "Two Free Revision Round",
+      "TwoFreeRevisionRoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "TemplateCustomization": "Template Customization",
+      "TemplateCustomizationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "Support": "24/7 Support",
+      "SupportDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "QuickDelivery": "Quick Delivery",
+      "QuickDeliveryDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "FreeRevisions": "Free Revisions",
+      "FreeRevisionsDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    }
+  },
+  "HomeClients": {
+    "title": "What our clients say about us",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.",
+    "Items": {
+      "title": "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus.",
+      "name": "Jenny Wilson",
+      "position": "Vice President"
+    }
+  },
+  "HomeSendInquery": {
+    "title": "Building stellar websites for early startups",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "secoundTitle": "Send inquiry",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "button": "Send an Inquiry",
+    "link": "Get in touch with us"
+  },
+  "HomeBlogItems": {
+    "currentTitle": "Our blog",
+    "title": "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    "secoundTitle": "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    "thirdTitle": "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "link": "Read more"
+  },
+  "AboutHero": {
+    "beforeTitle": "About us",
+    "title": "Our designs solve problems",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  "AboutWhoWeAre": {
+    "beforeTitle": "Who we are",
+    "title": "Goal focussed",
+    "secoundTitle": "Continuous improvement",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  "AboutFollow": {
+    "title": "The process we follow",
+    "Items": {
+      "planning": "Planning",
+      "planningDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "conception": "Conception",
+      "conceptionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "design": "Design",
+      "designDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "development": "Development",
+      "developmentDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    }
+  },
+  "AboutMission": {
+    "beforeTitle": "Our mission",
+    "title": "Inspire, Innovate, Share",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "secoundBeforeTitle": "Our vision",
+    "secoundTitle": "Laser focus",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  "AboutBenefits": {
+    "title": "The benefits of working with us",
+    "Items": {
+      "title": "Customize with ease",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "secoundTitle": "Perfectly Responsive",
+      "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "thirdTitle": "Friendly Support",
+      "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    }
+  },
+  "AboutTeam": {
+    "title": "Meet our team",
+    "Items": {
+      "name": "Shant Margaryan",
+      "position": "Frontend Developer",
+      "secoundname": "Karen Nersisyan",
+      "secoundposition": "Backend Developer & SEO optimization",
+      "thirdname": "Vahan Hovhannisian",
+      "thirdposition": "Frontend Developer"
+    }
+  },
+  "FeaturesHero": {
+    "title": "All the features you need",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "link": "View our work"
+  },
+  "FeaturesItems": {
+    "beforeTitle": "Use Client-first",
+    "title": "Top agencies and freelancers around the world use Client-first",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "secoundBeforeTitle": "Free Revision Rounds",
+    "secoundTitle": "Get free Revisions and one week of free maintenance",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "thirdBeforeTitle": "24/7 Support",
+    "thirdTitle": "Working with us, you will be getting 24/7 priority support",
+    "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "fourthBeforeTitle": "Quick Delivery",
+    "fourthTitle": "Guranteed 1 week delivery for standard five pager website",
+    "fourthDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+  },
+  "ProjectsHero": {
+    "beforeTitle": "What we created",
+    "title": "Our Work Portfolio",
+    "description": "We help teams create great digital products by providing them with tools and technology to make the design-to-code process universally accessible."
+  },
+  "ProjectsItems": {
+    "currentTitle": "Projects",
+    "viewMore": "View Project",
+    "title": "E-commerce",
+    "page": "Multipage",
+    "language": "HTML, CSS, JS",
+    "development": "Frontend",
+    "price": "100000 AMD",
+    "secoundTitle": "barber shop",
+    "secoundPage": "Multipage",
+    "secoundLanguage": "React, Styled Components",
+    "secoundDevelopment": "Frontend & Backend",
+    "secoundPrice": "100000 AMD",
+    "thirdTitle": "Furniture Store",
+    "thirdPage": "Multipage",
+    "thirdLanguage": "React, Styled Components",
+    "thirdDevelopment": "Frontend & Backend",
+    "thirdPrice": "100000 AMD",
+    "fourthTitle": "Games",
+    "fourthPage": "Landing page",
+    "fourthLanguage": "HTML, CSS, JS",
+    "fourthDevelopment": "Frontend",
+    "fourthPrice": "50000 AMD",
+    "fifthTitle": "photo studio",
+    "fifthPage": "Multipage",
+    "fifthLanguage": "HTML, CSS, JS",
+    "fifthDevelopment": "Frontend",
+    "fifthPrice": "50000 AMD",
+    "ProjectAboutInfo": {
+      "language": "language",
+      "development": "development",
+      "price": "price"
+      
+    }
+  },
+  "SingleProjectHero": {
+    "beforeTitle": "Web design and development",
+    "title": "About the project to study",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."
+  },
+  "ProjectAbout": {
+    "title": "About the project",
+    "items": {
+      "1": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "firstSmallText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "secondSmallText": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
+        "thirdSmallText": "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+      },
+      "2": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+        "firstSmallText": "Lorem ipsum dolor sit amet",
+        "secondSmallText": "Quis nostrud exercitation",
+        "thirdSmallText": "Duis aute irure dolor in reprehenderit"
+      },
+      "3": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "firstSmallText": "Lorem ipsum dolor sit amet, consectetur",
+        "secondSmallText": "Quis nostrud exercitation ullamco laboris",
+        "thirdSmallText": "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+      },
+      "4": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "firstSmallText": "Lorem ipsum dolor sit amet, consectetur",
+        "secondSmallText": "Quis nostrud exercitation ullamco laboris",
+        "thirdSmallText": "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+      },
+      "5": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "firstSmallText": "Lorem ipsum dolor sit amet, consectetur",
+        "secondSmallText": "Quis nostrud exercitation ullamco laboris",
+        "thirdSmallText": "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+      }
+    }
+  },
+  "Footer": {
+    "smallDescription": "We are always open to discuss your project and improve your online presence.",
+    "largeDescription": "We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.",
+    "title": "Lets Talk!",
+    "emailTitle": "Email me at",
+    "callTitle": "Call us"
+  }
+}

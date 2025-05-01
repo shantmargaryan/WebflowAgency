@@ -1,0 +1,232 @@
+{
+  "NavLinks": {
+    "home": "Գլխավոր",
+    "about": "մեր մասին",
+    "features": "Հատկություններ",
+    "projects": "նախագծեր",
+    "contact": "Կապ"
+  },
+  "HomeHero": {
+    "title": "Շենքի աստղային կայքեր կառուցելը վաղաժամկետ նորացման համար",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "link": "Դիտեք մեր աշխատանքը"
+  },
+  "HomeWork": {
+    "link": "Կապվեք մեզ հետ",
+    "title": "Ինչպես ենք մենք աշխատում",
+    "description": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
+    "Items": {
+      "Strategy": "Ռազմավարություն",
+      "StrategyDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
+      "Wireframing": "Ընթացող",
+      "WireframingDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
+      "Design": "Դիզայն",
+      "DesignDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
+      "Development": "Մշակում",
+      "DevelopmentDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։"
+    }
+  },
+  "HomeProjects": {
+    "title": "Դիտեք մեր նախագծերը",
+    "link": "Դիտեք ավելին",
+    "Items": {
+      "title": "Workhub Office Webflow Webflow դիզայն",
+      "secoundTitle": "Unisaas կայքի ձեւավորում",
+      "description": "Կատարման կոկորդի տգեղ ֆուտբոլ Հղի: Սնուցում եւ խնդրում եմ փորձեք",
+      "link": "Դիտեք նախագիծը"
+    }
+  },
+  "HomeFeatures": {
+    "beforeTitle": "Հատկություններ",
+    "title": "Նախագծում, որը լուծում է խնդիրները, միանգամից մեկ ապրանք",
+    "Items": {
+      "UsesClientFirst": "Առաջին հերթին օգտագործում է հաճախորդը",
+      "UsesClientFirstDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "TwoFreeRevisionRound": "Երկու անվճար վերանայման փուլ",
+      "TwoFreeRevisionRoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "TemplateCustomization": "Կաղապարի հարմարեցում",
+      "TemplateCustomizationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "Support": "24/7 Աջակցություն",
+      "SupportDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "QuickDelivery": "Արագ առաքում",
+      "QuickDeliveryDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "FreeRevisions": "Ազատ վերանայում",
+      "FreeRevisionsDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    }
+  },
+  "HomeClients": {
+    "title": "Այն, ինչ ասում են մեր հաճախորդները մեր մասին",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.",
+    "Items": {
+      "title": "Մինչ այժմ մենք աշխատել ենք լավագույն գործակալությունը:Նրանք հասկանում են մեր արտադրանքը եւ կարողանում են հիանալի ուշադրության կենտրոնում ավելացնել նոր հնարավորություններ.",
+      "name": "Jenny Wilson",
+      "position": "Փոխնախագահ"
+    }
+  },
+  "HomeSendInquery": {
+    "title": "Շենքի աստղային կայքեր կառուցելը վաղաժամկետ նորացման համար",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "secoundTitle": "Ուղարկել հարցում",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "button": "Ուղարկեք հետաքննություն",
+    "link": "Կապվեք մեզ հետ"
+  },
+  "HomeBlogItems": {
+    "currentTitle": "Մեր բլոգը",
+    "title": "Ինչպես է մեկ վեբ հոսքի օգտագործողը 14 ամսվա ընթացքում աճել է իր մեկ անձի խորհրդատվությունից 0-100% -ից",
+    "secoundTitle": "Ինչպես է մեկ վեբ հոսքի օգտագործողը 14 ամսվա ընթացքում աճել է իր մեկ անձի խորհրդատվությունից 0-100% -ից",
+    "thirdTitle": "Ինչպես է մեկ վեբ հոսքի օգտագործողը 14 ամսվա ընթացքում աճել է իր մեկ անձի խորհրդատվությունից 0-100% -ից",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "link": "Կարդալ ավելին"
+  },
+  "AboutHero": {
+    "beforeTitle": "Մեր մասին",
+    "title": "Մեր նմուշները լուծում են խնդիրները",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  "AboutWhoWeAre": {
+    "beforeTitle": "Ով ենք մենք",
+    "title": "Նպատակը կենտրոնացած է",
+    "secoundTitle": "Շարունակական բարելավում",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  "AboutFollow": {
+    "title": "Գործընթացը, որը մենք հետեւում ենք",
+    "Items": {
+      "planning": "Պլանավորում",
+      "planningDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "conception": "Հասկացողություն",
+      "conceptionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "design": "Դիզայն",
+      "designDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "development": "Մշակում",
+      "developmentDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    }
+  },
+  "AboutMission": {
+    "beforeTitle": "Մեր առաքելությունը",
+    "title": "Ոգեշնչեք, նորարարեք, կիսվեք",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "secoundBeforeTitle": "Մեր տեսլականը",
+    "secoundTitle": "Լազերային կենտրոնացում",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  "AboutBenefits": {
+    "title": "Մեզ հետ աշխատելու առավելությունները",
+    "Items": {
+      "title": "Անհատականացրեք հեշտությամբ",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "secoundTitle": "Կատարյալ պատասխանատու",
+      "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "thirdTitle": "Ընկերական աջակցություն",
+      "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    }
+  },
+  "AboutTeam": {
+    "title": "Հանդիպեք մեր թիմին",
+    "Items": {
+      "name": "Շանթ Մարգարյան",
+      "position": "Frontend Developer",
+      "secoundname": "Կարեն Ներսիսյան",
+      "secoundposition": "Backend Developer & SEO optimization",
+      "thirdname": "Վահան Հովհաննեսյան",
+      "thirdposition": "Frontend Developer"
+    }
+  },
+  "FeaturesHero": {
+    "title": "Ձեզ անհրաժեշտ բոլոր հատկությունները",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "link": "Դիտեք մեր աշխատանքը"
+  },
+  "FeaturesItems": {
+    "beforeTitle": "Օգտագործեք հաճախորդ-առաջին",
+    "title": "Աշխարհի լավագույն գործակալություններն ու ազատ գործողությունները օգտագործում են հաճախորդ-առաջինը",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "secoundBeforeTitle": "Անվճար վերանայման փուլեր",
+    "secoundTitle": "Ստացեք անվճար վերանայումներ եւ անվճար սպասարկման մեկ շաբաթ",
+    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "thirdBeforeTitle": "24/7 աջակցություն",
+    "thirdTitle": "Աշխատելով մեզ հետ, դուք կստանաք 24/7 առաջնահերթ աջակցություն",
+    "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "fourthBeforeTitle": "Արագ առաքում",
+    "fourthTitle": "Երաշխավորված 1 շաբաթվա առաքում ստանդարտ հինգ էջի կայքէջի համար",
+    "fourthDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+  },
+  "ProjectsHero": {
+    "beforeTitle": "Այն, ինչ մենք ստեղծեցինք",
+    "title": "Մեր աշխատանքային պորտֆելը",
+    "description": "Մենք օգնում ենք թիմերին ստեղծել հիանալի թվային արտադրանքներ `նրանց գործիքներով եւ տեխնոլոգիա տրամադրելով` դիզայնի կոդով գործընթացը համընդհանուր հասանելի դարձնելու համար:"
+  },
+  "ProjectsItems": {
+    "currentTitle": "Նախագծեր",
+    "viewMore": "Դիտեք նախագիծը",
+    "title": "E-commerce",
+    "page": "Multipage",
+    "language": "HTML, CSS, JS",
+    "development": "Frontend",
+    "price": "100000 ԴՐԱՄ",
+    "secoundTitle": "barber shop",
+    "secoundPage": "Multipage",
+    "secoundLanguage": "React, Styled Components",
+    "secoundDevelopment": "Frontend & Backend",
+    "secoundPrice": "100000 ԴՐԱՄ",
+    "thirdTitle": "Furniture Store",
+    "thirdPage": "Multipage",
+    "thirdLanguage": "React, Styled Components",
+    "thirdDevelopment": "Frontend & Backend",
+    "thirdPrice": "100000 ԴՐԱՄ",
+    "fourthTitle": "Games",
+    "fourthPage": "Landing page",
+    "fourthLanguage": "HTML, CSS, JS",
+    "fourthDevelopment": "Frontend",
+    "fourthPrice": "50000 ԴՐԱՄ",
+    "fifthTitle": "photo studio",
+    "fifthPage": "Multipage",
+    "fifthLanguage": "HTML, CSS, JS",
+    "fifthDevelopment": "Frontend",
+    "fifthPrice": "50000 ԴՐԱՄ",
+    "ProjectAboutInfo": {
+      "language": "լեզու",
+      "development": "ծրագրավորում",
+      "price": "գին"
+    }
+  },
+  "SingleProjectHero": {
+    "beforeTitle": "Վեբ ձեւավորում եւ զարգացում",
+    "title": "Պրոյեկտի մասին ուսումնասիրել",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."
+  },
+  "ProjectAbout": {
+    "title": "Պրոյեկտի մասին",
+    "items": {
+      "1": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "firstSmallText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "secondSmallText": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
+        "thirdSmallText": "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+      },
+      "2": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+        "firstSmallText": "Lorem ipsum dolor sit amet",
+        "secondSmallText": "Quis nostrud exercitation",
+        "thirdSmallText": "Duis aute irure dolor in reprehenderit"
+      },
+      "3": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "firstSmallText": "Lorem ipsum dolor sit amet, consectetur",
+        "secondSmallText": "Quis nostrud exercitation ullamco laboris",
+        "thirdSmallText": "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+      }
+    }
+  },
+  "Footer": {
+    "smallDescription": "Մենք միշտ բաց ենք ձեր նախագիծը քննարկելու եւ ձեր առցանց ներկայությունը բարելավելու համար:",
+    "largeDescription": "Մենք միշտ բաց ենք քննարկելու ձեր նախագիծը, ձեր առցանց ներկայությունը բարելավելու եւ ձեր UX / UI դիզայնի մարտահրավերներին օգնելու համար:",
+    "title": "Եկեք խոսենք:",
+    "emailTitle": "Մեր էլ հասցեն",
+    "callTitle": "Զանգահարեք մեզ"
+  }
+}

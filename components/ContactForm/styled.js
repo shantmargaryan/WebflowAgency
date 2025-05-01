@@ -1,0 +1,127 @@
+import styled from "styled-components";
+import { Section, Container, Paragraph, primaryLink, SecondaryTitle, Img } from "@/styled/mixStyle";
+import { ButtonReset, InputReset, TextareaReset } from "@/styled/reset";
+
+
+export const ContactSection = styled.section`
+  ${Section}
+  `
+
+export const ContactContainer = styled.div`
+  ${Container}
+  display: grid;
+  grid-template-columns: ${({ theme }) => theme.Response.gridCustom};
+`
+
+export const Content = styled.div`
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 30, 83, 0.50);
+    z-index: -1;
+  }
+`
+
+export const ContactTitle = styled.h3`
+  ${SecondaryTitle}
+  color: ${({ theme }) => theme.colors.white};
+  margin-block-end: 1rem;
+`
+
+export const ContactParagraph = styled.p`
+  ${Paragraph}
+  color: ${({ theme }) => theme.colors.white};
+
+`
+
+export const Wrapper = styled.div`
+  padding: 3rem;
+  background-color: ${({ theme }) => theme.colors.tintBlue};
+`
+
+export const SmallTitle = styled.h3`
+  ${SecondaryTitle}
+  margin-block-end: 0.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: ${({ theme }) => theme.colors.white};
+`
+
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-block: 1rem;
+`
+
+
+export const Input = styled.input`
+  ${InputReset}
+  padding: 15px;
+  border-radius: 0.5rem;
+  border: 0.094rem solid rgba(255, 255, 255, 0.05);
+  color:  ${({ theme }) => theme.colors.white};
+
+  &::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Poppins";
+  }
+`
+
+export const Textarea = styled.textarea`
+  ${TextareaReset}
+  min-height: 150px;
+  padding: 15px;
+  border-radius: 0.5rem;
+  border: 0.094rem solid rgba(255, 255, 255, 0.05);
+  color:  ${({ theme }) => theme.colors.white};
+
+  &::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Poppins";
+  }
+  `
+
+
+export const Button = styled.button`
+  ${ButtonReset}
+  position: relative;
+  isolation: isolate;
+  padding: 0.5rem 2rem;
+  margin-block-end: 1rem;
+  border-radius: 2.563rem;
+  background-color: ${({ theme }) => theme.colors.yellow};
+  color: #1B1C2B;
+  font-weight: 600;
+  line-height: 2rem;
+  overflow: hidden;
+
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    border-radius: 2.5625rem;
+    transition: width 0.6s ease 0s,
+      background-color 0.6s ease 0s;
+  }
+
+  &:hover::before{
+    width: 100%;
+    background-color:rgba(231, 178, 44, 0.6);
+  }
+`
