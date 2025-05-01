@@ -23,7 +23,7 @@ export default async function HomeBlog() {
               <Item key={id}>
                 <Link href="#">
                   <BlogImg
-                    path={Imgs[id - 1].path}
+                    src={Imgs[id - 1].path}
                     alt={Imgs[id - 1].alt}
                     width={0}
                     height={0}

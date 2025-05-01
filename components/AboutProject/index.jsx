@@ -1,5 +1,5 @@
-import Images from "@/Utils/Images"
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { AboutProjectWrapper, AboutProjectContainer, AboutProjectTitle, AboutProjectParagraph, AboutProjectList, AboutProjectListItem } from "./styled";
 export default function AboutProject({ id, imgUrl, alt }) {
   const t = useTranslations("ProjectAbout");
@@ -28,7 +28,7 @@ export default function AboutProject({ id, imgUrl, alt }) {
               </AboutProjectListItem>
             ))}
         </AboutProjectList>
-        <Images path={imgUrl}
+        <Image src={imgUrl}
           alt={alt}
           width={0}
           height={0}

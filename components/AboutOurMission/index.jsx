@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import Images from "../../Utils/Images";
+import Image from "next/image";
 import {
   OurMissionSection,
   OurMissionContainer,
@@ -28,14 +28,14 @@ export default function AboutOurMission() {
               {t("description")}
             </OurMissionDecoration>
           </Content>
-          <Images path="/imgs/OurMissionImg .png" alt="subdivision"
+          <Image src="/imgs/OurMissionImg .png" alt="subdivision"
             width={0}
             height={0}
             style={{ width: '100%', height: 'auto' }}
           />
         </Wrapper>
         <Wrapper>
-          <Images path="/imgs/OurVisionImg.png" alt="groupWorks"
+          <Image src="/imgs/OurVisionImg.png" alt="groupWorks"
             width={0}
             height={0}
             style={{ width: '100%', height: 'auto' }}

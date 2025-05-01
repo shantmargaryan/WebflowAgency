@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { ClientsSection, ClientsContainer, ClientsTitle, ClientsParagraph, Content, SliderContent, Box, Text, Name, Position } from "./styled";
 import { Imgs } from "./images";
-import Images from "@/Utils/Images";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function HomeClients() {
@@ -51,8 +51,8 @@ export default function HomeClients() {
                 {t2(item.title)}
               </Text>
               <SliderContent>
-                <Images
-                  path={Imgs[item.id - 1]?.path}
+                <Image
+                  src={Imgs[item.id - 1]?.path}
                   alt={Imgs[item.id - 1]?.alt}
                   width={70}
                   height={70}

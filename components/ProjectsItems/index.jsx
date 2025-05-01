@@ -35,7 +35,7 @@ export default function ProjectsItems({ posts }) {
                   {t(post?.page)}
                 </Page>
                 <ProjectsImg 
-                  path={Images[post?.id - 1]?.path}
+                  src={Images[post?.id - 1]?.path}
                   alt={Images[post?.id - 1]?.alt}
                   width={0}
                   height={0}

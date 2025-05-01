@@ -19,7 +19,7 @@ export default function Hero({ title, description, img, link }) {
           </Link>
         </div>
         <HeroImg
-          path={img}
+          src={img}
           alt="homeHero"
           width={0}
           height={0}

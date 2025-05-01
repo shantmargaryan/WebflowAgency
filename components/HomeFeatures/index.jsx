@@ -41,7 +41,7 @@ export default function HomeFeatures() {
           {homeFeatures.map(({ id, title, description }) => (
             <Item key={id}>
               <Icon
-                path={svgs[id - 1].path}
+                src={svgs[id - 1].path}
                 alt="icons"
                 width={32}
                 height={32}

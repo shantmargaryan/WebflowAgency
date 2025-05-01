@@ -11,7 +11,7 @@ export default function ProjectInfo({ img, alt }) {
   return (
     <ProjectInfoWrapper>
       <ProjectInfoContainer>
-        <ProjectInfoImg path={img}
+        <ProjectInfoImg src={img}
           alt={alt}
           width={0}
           height={0}

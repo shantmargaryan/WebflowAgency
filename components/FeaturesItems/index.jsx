@@ -49,7 +49,7 @@ export default function FeaturesItems() {
                 <FeaturesTitle>{t(post?.title)}</FeaturesTitle>
                 <FeaturesText>{t(post?.description)}</FeaturesText>
               </div>
-              <FeaturesImg path={imgs[post?.id - 1]?.path}
+              <FeaturesImg src={imgs[post?.id - 1]?.path}
                 alt={imgs[post?.id - 1]?.alt}
                 width={0}
                 height={0}
