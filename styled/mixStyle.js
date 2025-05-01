@@ -1,7 +1,7 @@
 "use client"
 import styled, { css } from "styled-components";
 import { Link } from '@/i18n/navigation';
-import Images from "@/Utils/Images";
+import  Image  from "next/image";
 
 export const Main = styled.main`
   min-height: 100%;
@@ -49,7 +49,7 @@ export const primaryLink = styled(Link)`
   text-decoration: none;
 `;
 
-export const Img = styled(Images)`
+export const Img = styled(Image)`
   display: block;
   max-width: 100%;
   height: auto;
