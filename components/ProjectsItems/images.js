@@ -6,22 +6,22 @@ export const Images = [
   },
   {
     id: 2,
-    path: "/imgs/Project2.png",
+    path: "/imgs/barberShopImg1.png",
     alt: "projects",
   },
   {
     id: 3,
-    path: "/imgs/Project3.png",
+    path: "/imgs/SelHonoImg1.png",
     alt: "projects",
   },
   {
     id: 4,
-    path: "/imgs/SOSGames.png",
+    path: "/imgs/SOSGamesImg1.png",
     alt: "projects",
   },
   {
     id: 5,
-    path: "/imgs/photoStudio.png",
+    path: "/imgs/photoStudioImg1.png",
     alt: "projects",
   }
 ]

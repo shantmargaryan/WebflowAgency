@@ -4,7 +4,7 @@ import ProjectsItems from "@/components/ProjectsItems";
 import { useEffect, useState } from "react";
 
 
-export default  function ProjectsPage() {
+export default function ProjectsPage() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -21,10 +21,10 @@ export default  function ProjectsPage() {
       }
     };
     fetchProjects();
-  })
-  
+  }, [])
+
   return (
-    <>  
+    <>
       <ProjectsHero />
       <ProjectsItems posts={projects} />
     </>

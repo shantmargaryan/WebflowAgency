@@ -29,15 +29,15 @@ export default function AboutOurMission() {
             </OurMissionDecoration>
           </Content>
           <Image src="/imgs/OurMissionImg .png" alt="subdivision"
-            width={0}
-            height={0}
+             width={700}
+            height={700}
             style={{ width: '100%', height: 'auto' }}
           />
         </Wrapper>
         <Wrapper>
           <Image src="/imgs/OurVisionImg.png" alt="groupWorks"
-            width={0}
-            height={0}
+             width={700}
+            height={700}
             style={{ width: '100%', height: 'auto' }}
           />
           <Content>

@@ -8,18 +8,22 @@ export default function ProjectInfo({ img, alt }) {
     "development",
     "price"
   ]
+
   return (
     <ProjectInfoWrapper>
       <ProjectInfoContainer>
-        <ProjectInfoImg src={img}
-          alt={alt}
-          width={0}
-          height={0}
-          style={{ width: '100%', height: 'auto' }} />
+        {img && (
+          <ProjectInfoImg src={img}
+            alt={alt}
+            width={700}
+            height={700}
+            style={{ width: '100%', height: 'auto' }} />
+        )}
         <ProjectInfoList>
           {
             items.map((item) => (
-              <ProjectInfoListItem key={item}>
+              <ProjectInfoListItem
+                key={item}>
                 <ProjectInfoTitle>
                   {t2(item)}
                 </ProjectInfoTitle>

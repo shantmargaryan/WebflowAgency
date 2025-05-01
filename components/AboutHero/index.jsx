@@ -27,10 +27,10 @@ export default function AboutHero() {
             {t("description")}
           </AboutParagraph>
         </Content>
-        <AboutImg path="/imgs/AboutHeroImg.png"
+        <AboutImg src="/imgs/AboutHeroImg.png"
           alt="aboutHero"
-          width={0}
-          height={0}
+           width={700}
+          height={700}
           style={{ width: '100%', height: 'auto' }}
         />
       </AboutContainer>

@@ -24,7 +24,7 @@ export default function AboutTeam() {
         </TeamTitle>
         <TeamList>
           <TeamItem>
-            <TeamImg path="/imgs/ShantMargaryan.jpg" alt="team"
+            <TeamImg src="/imgs/ShantMargaryan.jpg" alt="team"
               width={100}
               height={100}
             />
@@ -36,7 +36,7 @@ export default function AboutTeam() {
             </TeamPosition>
           </TeamItem>
           <TeamItem>
-            <TeamImg path="/imgs/KarenNersisyan.jpg" alt="team"
+            <TeamImg src="/imgs/KarenNersisyan.jpg" alt="team"
               width={100}
               height={100}
             />
@@ -48,7 +48,7 @@ export default function AboutTeam() {
             </TeamPosition>
           </TeamItem>
           <TeamItem>
-            <TeamImg path="/imgs/VahanHovhannisian.jpg" alt="team"
+            <TeamImg src="/imgs/VahanHovhannisian.jpg" alt="team"
               width={100}
               height={100}
             />

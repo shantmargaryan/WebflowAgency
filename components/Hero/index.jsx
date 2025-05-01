@@ -21,8 +21,8 @@ export default function Hero({ title, description, img, link }) {
         <HeroImg
           src={img}
           alt="homeHero"
-          width={0}
-          height={0}
+           width={700}
+          height={700}
           sizes="100vw"
           style={{ width: '100%', height: 'auto' }}
         />

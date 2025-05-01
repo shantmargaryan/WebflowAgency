@@ -22,10 +22,11 @@ export default function AboutBenefits() {
         </BenefitsTitle>
         <BenefitsList>
           <BenefitsItem>
-            <BenefitsImg path="/svg/HandsOnApproach.svg" alt="icons"
+            <BenefitsImg src="/svg/HandsOnApproach.svg"
+              alt="icons"
               width={30}
               height={30}
-                          />
+            />
             <SmallTitle>
               {t2("title")}
             </SmallTitle>
@@ -34,10 +35,10 @@ export default function AboutBenefits() {
             </SmallParagraph>
           </BenefitsItem>
           <BenefitsItem>
-            <BenefitsImg path="/svg/TemplateCustmization.svg" alt="icons"
+            <BenefitsImg src="/svg/TemplateCustmization.svg" alt="icons"
               width={30}
               height={30}
-                          />
+            />
             <SmallTitle>
               {t2("secoundTitle")}
             </SmallTitle>
@@ -46,10 +47,10 @@ export default function AboutBenefits() {
             </SmallParagraph>
           </BenefitsItem>
           <BenefitsItem>
-            <BenefitsImg path="/svg/UsesClientFirst.svg" alt="icons"
+            <BenefitsImg src="/svg/UsesClientFirst.svg" alt="icons"
               width={30}
               height={30}
-                          />
+            />
             <SmallTitle>
               {t2("thirdTitle")}
             </SmallTitle>

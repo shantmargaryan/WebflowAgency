@@ -32,10 +32,10 @@ export default function HomeProject() {
                 <ArrowRight />
               </ItemLink>
             </ItemContent>
-            <ProjectImg src="/imgs/HomeprojectImg1.png" alt="project"
-              target="_blank"
-              width={0}
-              height={0}
+            <ProjectImg src="/imgs/HomeprojectImg1.png"
+              alt="project"
+              width={700}
+              height={700}
               style={{ width: '100%', height: 'auto' }}
             />
           </Item>
@@ -52,8 +52,8 @@ export default function HomeProject() {
                 </ItemLink>
               </ItemContent>
               <ProjectImg src="/imgs/HomeprojectImg2.png" alt="project"
-                width={0}
-                height={0}
+                width={700}
+                height={700}
                 style={{ width: '100%', height: 'auto' }}
               />
             </Item>
@@ -61,8 +61,8 @@ export default function HomeProject() {
               <ImgLink href="/worksSingle">
                 <ProjectImg src="/imgs/projectImg3.png" alt="project"
                   target="_blank"
-                  width={0}
-                  height={0}
+                  width={700}
+                  height={700}
                   style={{ width: '100%', height: 'auto' }}
                 />
               </ImgLink>

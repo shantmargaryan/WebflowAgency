@@ -51,8 +51,8 @@ export default function FeaturesItems() {
               </div>
               <FeaturesImg src={imgs[post?.id - 1]?.path}
                 alt={imgs[post?.id - 1]?.alt}
-                width={0}
-                height={0}
+                 width={700}
+                height={700}
                 style={{ width: '100%', height: 'auto' }}
               />
             </FeaturesItem>

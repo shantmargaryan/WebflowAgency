@@ -25,9 +25,10 @@ export default function Header() {
 
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== 'undefined' && typeof document !== 'undefined') {
       if (isOpen) {
-        document.body.style.paddingRight = `${window.innerWidth - document.body.offsetWidth}px`;
+        const scrollbarWidth = window.innerWidth - document.body.offsetWidth;
+        document.body.style.paddingRight = `${scrollbarWidth}px`;
         document.body.style.overflow = "hidden";
       } else {
         document.body.style.paddingRight = "0";

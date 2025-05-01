@@ -31,9 +31,6 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code",
-  },
   alternates: {
     canonical: "https://web-flow.am",
     languages: {

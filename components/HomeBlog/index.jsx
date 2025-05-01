@@ -25,8 +25,8 @@ export default async function HomeBlog() {
                   <BlogImg
                     src={Imgs[id - 1].path}
                     alt={Imgs[id - 1].alt}
-                    width={0}
-                    height={0}
+                     width={700}
+                    height={700}
                     style={{ width: '100%', height: 'auto' }}
                   />
                 </Link>

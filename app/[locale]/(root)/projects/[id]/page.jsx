@@ -3,9 +3,12 @@ import SingleProjectHero from "@/components/SingleProjectHero";
 import ProjectInfo from "@/components/ProjectInfo";
 import AboutProject from "@/components/AboutProject";
 import { useEffect, useState } from "react";
+import { use } from "react";
+
 export default function SinglePage({ params }) {
   const [projects, setProjects] = useState([]);
-
+  const unwrappedParams = use(params);
+  const { id } = unwrappedParams;
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -21,8 +24,8 @@ export default function SinglePage({ params }) {
       }
     };
     fetchProjects();
-  })
-  const { id } = params;
+  }, [])
+
   const project = projects.find((post) => +post.id === +id);
 
   return (

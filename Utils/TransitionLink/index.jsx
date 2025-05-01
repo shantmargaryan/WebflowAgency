@@ -20,20 +20,30 @@ export const TransitionLink = ({
     e
   ) => {
     e.preventDefault();
+
+    if (typeof document === 'undefined') {
+      router.push(href);
+      return;
+    }
+
     const body = document.querySelector("body");
+    if (!body) {
+      router.push(href);
+      return;
+    }
 
-    body?.classList.add("page-transition");
+    body.classList.add("page-transition");
 
-    await sleep(500);
+    await sleep(200);
     router.push(href);
-    await sleep(500);
+    await sleep(200);
 
-    body?.classList.remove("page-transition");
+    body.classList.remove("page-transition");
   };
 
   return (
     <TransitionLinks {...props} href={href}
-      onClick={(e) => { onClick() ; handleTransition(e) }}>
+      onClick={(e) => { onClick(); handleTransition(e) }}>
       {children}
     </TransitionLinks>
   );

@@ -108,7 +108,7 @@
   },
   "AboutMission": {
     "beforeTitle": "Our mission",
-    "title": "Inspire, Innovate, Share",
+    "title": "Inspire, Innovate, Share",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     "secoundBeforeTitle": "Our vision",
     "secoundTitle": "Laser focus",
@@ -189,10 +189,9 @@
     "fifthDevelopment": "Frontend",
     "fifthPrice": "50000 AMD",
     "ProjectAboutInfo": {
-      "language": "language",
-      "development": "development",
-      "price": "price"
-      
+      "language": "Language",
+      "development": "Development",
+      "price": "Price"
     }
   },
   "SingleProjectHero": {

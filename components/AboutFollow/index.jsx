@@ -43,9 +43,9 @@ export default function AboutFollow() {
         <List>
           {aboutFollow?.map((item) => (
             <Item key={item.id}>
-              <FollowImg path="/svg/LineIcon.svg" alt="icons"
-                width={0}
-                height={0}
+              <FollowImg src="/svg/LineIcon.svg" alt="icons"
+                 width={700}
+                height={700}
                 style={{ width: '100%', height: 'auto' }}
               />
               <SmallTitle>

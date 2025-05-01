@@ -37,10 +37,10 @@ export default function AboutWhoWeAre() {
             </Description>
           </Content>
         </Wrapper>
-        <WhoWeAreImg path="/imgs/WhoWeAreImg.png"
+        <WhoWeAreImg src="/imgs/WhoWeAreImg.png"
           alt="whoWeAre"
-          width={0}
-          height={0}
+           width={700}
+          height={700}
           style={{ width: '100%', height: 'auto' }}
         />
       </WhoWeAreContainer>

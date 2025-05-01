@@ -9,6 +9,8 @@ export default function AboutProject({ id, imgUrl, alt }) {
     "thirdSmallText"
   ]
 
+  if (!id) return null;
+
   return (
     <AboutProjectWrapper>
       <AboutProjectContainer>
@@ -30,8 +32,8 @@ export default function AboutProject({ id, imgUrl, alt }) {
         </AboutProjectList>
         <Image src={imgUrl}
           alt={alt}
-          width={0}
-          height={0}
+          width={700}
+          height={700}
           style={{ width: '100%', height: 'auto' }} />
       </AboutProjectContainer>
     </AboutProjectWrapper>
