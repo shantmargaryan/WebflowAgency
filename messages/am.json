@@ -7,7 +7,7 @@
     "contact": "Կապ"
   },
   "HomeHero": {
-    "title": "Շենքի աստղային կայքեր կառուցելը վաղաժամկետ նորացման համար",
+    "title": "Մենք ստեղծում ենք հիանալի կայքեր բոլորի համար",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     "link": "Դիտեք մեր աշխատանքը"
   },
@@ -16,13 +16,13 @@
     "title": "Ինչպես ենք մենք աշխատում",
     "description": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
     "Items": {
-      "Strategy": "Ռազմավարություն",
+      "Strategy": "Քննարկում",
       "StrategyDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
-      "Wireframing": "Ընթացող",
+      "Wireframing": "Ընթացք",
       "WireframingDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
       "Design": "Դիզայն",
       "DesignDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
-      "Development": "Մշակում",
+      "Development": "ծրագրավորում",
       "DevelopmentDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։"
     }
   },
@@ -30,25 +30,25 @@
     "title": "Դիտեք մեր նախագծերը",
     "link": "Դիտեք ավելին",
     "Items": {
-      "title": "Workhub Office Webflow Webflow դիզայն",
-      "secoundTitle": "Unisaas կայքի ձեւավորում",
-      "description": "Կատարման կոկորդի տգեղ ֆուտբոլ Հղի: Սնուցում եւ խնդրում եմ փորձեք",
+      "title": "Web-Flow-ի լավագույն կայքերը",
+      "secoundTitle": "Մեր լավագույն աշխատանքները",
+      "description": "Ներկայացնում ենք մեր աշխատանքը հաճախորդի համար։",
       "link": "Դիտեք նախագիծը"
     }
   },
   "HomeFeatures": {
     "beforeTitle": "Հատկություններ",
-    "title": "Նախագծում, որը լուծում է խնդիրները, միանգամից մեկ ապրանք",
+    "title": "Նախագծում, որը լուծում է խնդիրները",
     "Items": {
       "UsesClientFirst": "Առաջին հերթին օգտագործում է հաճախորդը",
       "UsesClientFirstDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-      "TwoFreeRevisionRound": "Երկու անվճար վերանայման փուլ",
+      "TwoFreeRevisionRound": "Անվճար հոստինգ և դոմենստրացիա",
       "TwoFreeRevisionRoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
       "TemplateCustomization": "Կաղապարի հարմարեցում",
       "TemplateCustomizationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-      "Support": "24/7 Աջակցություն",
+      "Support": "Աջակցություն",
       "SupportDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-      "QuickDelivery": "Արագ առաքում",
+      "QuickDelivery": "Ժամանակին պատրաստում",
       "QuickDeliveryDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
       "FreeRevisions": "Ազատ վերանայում",
       "FreeRevisionsDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
@@ -64,11 +64,11 @@
     }
   },
   "HomeSendInquery": {
-    "title": "Շենքի աստղային կայքեր կառուցելը վաղաժամկետ նորացման համար",
+    "title": "Մենք ստեղծում ենք հիանալի կայքեր բոլորի բիզնեսների համար",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     "secoundTitle": "Ուղարկել հարցում",
     "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    "button": "Ուղարկեք հետաքննություն",
+    "button": "Ուղարկել",
     "link": "Կապվեք մեզ հետ"
   },
   "HomeBlogItems": {
@@ -83,12 +83,12 @@
   },
   "AboutHero": {
     "beforeTitle": "Մեր մասին",
-    "title": "Մեր նմուշները լուծում են խնդիրները",
+    "title": "Մեր ընկերությունը լուծում է խնդիրները",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
   },
   "AboutWhoWeAre": {
     "beforeTitle": "Ով ենք մենք",
-    "title": "Նպատակը կենտրոնացած է",
+    "title": "Մեր նպատակը կենտրոնացած է",
     "secoundTitle": "Շարունակական բարելավում",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
@@ -108,16 +108,16 @@
   },
   "AboutMission": {
     "beforeTitle": "Մեր առաքելությունը",
-    "title": "Ոգեշնչեք, նորարարեք, կիսվեք",
+    "title": "նորարարեք, կիսվեք",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     "secoundBeforeTitle": "Մեր տեսլականը",
-    "secoundTitle": "Լազերային կենտրոնացում",
+    "secoundTitle": "Ամեն ինչ անում ենք մեր հաջախորտների համար",
     "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
   },
   "AboutBenefits": {
     "title": "Մեզ հետ աշխատելու առավելությունները",
     "Items": {
-      "title": "Անհատականացրեք հեշտությամբ",
+      "title": "Աշխատանքի հեշտություն",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
       "secoundTitle": "Կատարյալ պատասխանատու",
       "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
@@ -142,22 +142,22 @@
     "link": "Դիտեք մեր աշխատանքը"
   },
   "FeaturesItems": {
-    "beforeTitle": "Օգտագործեք հաճախորդ-առաջին",
-    "title": "Աշխարհի լավագույն գործակալություններն ու ազատ գործողությունները օգտագործում են հաճախորդ-առաջինը",
+    "beforeTitle": "Հաճախորդի կարծիքը",
+    "title": "Հաճախորդի կարծիքը մեզ համար շատ կարևոր է",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    "secoundBeforeTitle": "Անվճար վերանայման փուլեր",
-    "secoundTitle": "Ստացեք անվճար վերանայումներ եւ անվճար սպասարկման մեկ շաբաթ",
+    "secoundBeforeTitle": "Վերանայման փուլեր",
+    "secoundTitle": "Ստեղծում ենք լավագույն աշխատանքը մեր հաճախորդի համար",
     "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    "thirdBeforeTitle": "24/7 աջակցություն",
-    "thirdTitle": "Աշխատելով մեզ հետ, դուք կստանաք 24/7 առաջնահերթ աջակցություն",
+    "thirdBeforeTitle": "աջակցություն",
+    "thirdTitle": "Աշխատելով մեզ հետ, դուք կստանաք լավագույն սպասարկում",
     "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    "fourthBeforeTitle": "Արագ առաքում",
-    "fourthTitle": "Երաշխավորված 1 շաբաթվա առաքում ստանդարտ հինգ էջի կայքէջի համար",
+    "fourthBeforeTitle": "Ժամանակին պատրաստում",
+    "fourthTitle": "Երաշխավորված որակյալ աշխատանք",
     "fourthDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
   },
   "ProjectsHero": {
     "beforeTitle": "Այն, ինչ մենք ստեղծեցինք",
-    "title": "Մեր աշխատանքային պորտֆելը",
+    "title": "Մեր աշխատանքները",
     "description": "Մենք օգնում ենք թիմերին ստեղծել հիանալի թվային արտադրանքներ `նրանց գործիքներով եւ տեխնոլոգիա տրամադրելով` դիզայնի կոդով գործընթացը համընդհանուր հասանելի դարձնելու համար:"
   },
   "ProjectsItems": {
