@@ -8,6 +8,7 @@ export default function HomeFeatures() {
   const t = useTranslations("HomeFeatures");
   const t2 = useTranslations("HomeFeatures.Items");
   const [homeFeatures, setHomeFeatures] = useState([]);
+  const [imageLoading, setImageLoading] = useState(true);
 
   useEffect(() => {
     const fetchFeatures = async () => {
@@ -45,6 +46,9 @@ export default function HomeFeatures() {
                 alt="icons"
                 width={32}
                 height={32}
+                onLoad={() => setImageLoading(false)}
+                imageLoading={imageLoading}
+                priority={false}
               />
               <ItemTitle>
                 {t2(title)}

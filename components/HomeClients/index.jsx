@@ -13,6 +13,7 @@ export default function HomeClients() {
   const t = useTranslations("HomeClients");
   const t2 = useTranslations("HomeClients.Items");
   const [homeClients, setHomeClients] = useState([]);
+  const [imageLoading, setImageLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -56,6 +57,9 @@ export default function HomeClients() {
                   alt={Imgs[item.id - 1]?.alt}
                   width={70}
                   height={70}
+                  onLoad={() => setImageLoading(false)}
+                  imageLoading={imageLoading}
+                  priority={false}
                 />
                 <Box>
                   <Name>

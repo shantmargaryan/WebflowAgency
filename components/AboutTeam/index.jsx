@@ -1,4 +1,6 @@
+"use client"
 import { useTranslations } from "next-intl";
+import { useState } from "react";
 import {
   TeamSection,
   TeamContainer,
@@ -14,7 +16,7 @@ import {
 export default function AboutTeam() {
   const t = useTranslations("AboutTeam")
   const t2 = useTranslations("AboutTeam.Items")
-
+  const [imageLoading, setImageLoading] = useState(true);
 
   return (
     <TeamSection>
@@ -27,6 +29,9 @@ export default function AboutTeam() {
             <TeamImg src="/imgs/ShantMargaryan.jpg" alt="team"
               width={100}
               height={100}
+              onLoad={() => setImageLoading(false)}
+              imageLoading={imageLoading}
+              priority={false}
             />
             <TeamName>
               {t2("name")}
@@ -39,6 +44,9 @@ export default function AboutTeam() {
             <TeamImg src="/imgs/KarenNersisyan.jpg" alt="team"
               width={100}
               height={100}
+              onLoad={() => setImageLoading(false)}
+              imageLoading={imageLoading}
+              priority={false}
             />
             <TeamName>
               {t2("secoundname")}
@@ -51,6 +59,9 @@ export default function AboutTeam() {
             <TeamImg src="/imgs/VahanHovhannisian.jpg" alt="team"
               width={100}
               height={100}
+              onLoad={() => setImageLoading(false)}
+              imageLoading={imageLoading}
+              priority={false}
             />
             <TeamName>
               {t2("thirdname")}

@@ -1,6 +1,5 @@
 "use client";
 import { useTranslations } from "next-intl";
-import { ArrowRight } from "lucide-react";
 import { ContactSection, ContactContainer, Content, ContactTitle, ContactParagraph, Wrapper, SmallTitle, Form, Input, Textarea, Button, Link } from "./styled";
 
 

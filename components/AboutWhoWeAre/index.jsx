@@ -1,3 +1,5 @@
+"use client"
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import {
   WhoWeAreSection,
@@ -12,7 +14,7 @@ import {
 
 export default function AboutWhoWeAre() {
   const t = useTranslations("AboutWhoWeAre");
-
+  const [imageLoading, setImageLoading] = useState(true);
   return (
     <WhoWeAreSection>
       <WhoWeAreContainer>
@@ -39,9 +41,12 @@ export default function AboutWhoWeAre() {
         </Wrapper>
         <WhoWeAreImg src="/imgs/WhoWeAreImg.png"
           alt="whoWeAre"
-           width={700}
+          width={700}
           height={700}
           style={{ width: '100%', height: 'auto' }}
+          onLoad={() => setImageLoading(false)}
+          imageLoading={imageLoading}
+          priority={false}
         />
       </WhoWeAreContainer>
     </WhoWeAreSection>

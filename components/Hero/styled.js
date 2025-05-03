@@ -59,6 +59,8 @@ export const Link = styled(primaryLink)`
 `
 
 export const HeroImg = styled(Img)`
+  opacity: ${({ imageLoading }) => imageLoading ? '0' : '1'};
+  filter: blur(${({ imageLoading }) => imageLoading ? '10px' : '0px'});
   `
 
 

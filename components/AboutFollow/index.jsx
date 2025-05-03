@@ -18,6 +18,7 @@ export default function AboutFollow() {
   const t = useTranslations("AboutFollow");
   const t2 = useTranslations("AboutFollow.Items");
   const [aboutFollow, setAboutFollow] = useState([]);
+  const [imageLoading, setImageLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -44,9 +45,11 @@ export default function AboutFollow() {
           {aboutFollow?.map((item) => (
             <Item key={item.id}>
               <FollowImg src="/svg/LineIcon.svg" alt="icons"
-                 width={700}
+                width={700}
                 height={700}
-                style={{ width: '100%', height: 'auto' }}
+                onLoad={() => setImageLoading(false)}
+                imageLoading={imageLoading}
+                priority={false}
               />
               <SmallTitle>
                 {t2(item?.title)}

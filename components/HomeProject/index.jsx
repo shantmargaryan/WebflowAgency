@@ -1,9 +1,12 @@
+"use client"
 import { useTranslations } from "next-intl";
 import { MoveRight as ArrowRight } from "lucide-react";
 import { ProjectSection, ProjectContainer, Content, ProjectTitle, Link, ImgLink, ViewMore, ProjectImg, List, Item, ImgBox, ItemContent, ItemTitle, ItemParagraph, ItemLink } from "./styled";
+import { useState } from "react";
 export default function HomeProject() {
   const t = useTranslations("HomeProjects")
   const t2 = useTranslations("HomeProjects.Items")
+  const [imageLoading, setImageLoading] = useState(true);
 
   return (
     <ProjectSection>
@@ -37,6 +40,9 @@ export default function HomeProject() {
               width={700}
               height={700}
               style={{ width: '100%', height: 'auto' }}
+              onLoad={() => setImageLoading(false)}
+              imageLoading={imageLoading}
+              priority={false}
             />
           </Item>
           <ImgBox>
@@ -55,6 +61,9 @@ export default function HomeProject() {
                 width={700}
                 height={700}
                 style={{ width: '100%', height: 'auto' }}
+                onLoad={() => setImageLoading(false)}
+                imageLoading={imageLoading}
+                priority={false}
               />
             </Item>
             <Item>
@@ -64,6 +73,9 @@ export default function HomeProject() {
                   width={700}
                   height={700}
                   style={{ width: '100%', height: 'auto' }}
+                  onLoad={() => setImageLoading(false)}
+                  imageLoading={imageLoading}
+                  priority={false}
                 />
               </ImgLink>
             </Item>

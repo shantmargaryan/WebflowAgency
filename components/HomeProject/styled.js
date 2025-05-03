@@ -46,6 +46,7 @@ export const Item = styled.li`
 export const ItemContent = styled.div`
   position: absolute;
   top: 0;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;

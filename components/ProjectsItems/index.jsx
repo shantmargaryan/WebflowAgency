@@ -1,3 +1,5 @@
+"use client"
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { MoveRight as ArrowRight } from "lucide-react";
 import { Images } from "./images";
@@ -20,6 +22,7 @@ import {
 
 export default function ProjectsItems({ posts }) {
   const t = useTranslations("ProjectsItems");
+  const [imageLoading, setImageLoading] = useState(true);
 
   return (
     <ProjectsSection>
@@ -34,12 +37,15 @@ export default function ProjectsItems({ posts }) {
                 <Page>
                   {t(post?.page)}
                 </Page>
-                <ProjectsImg 
+                <ProjectsImg
                   src={Images[post?.id - 1]?.path}
                   alt={Images[post?.id - 1]?.alt}
-                   width={700}
+                  width={700}
                   height={700}
                   style={{ width: '100%', height: 'auto' }}
+                  onLoad={() => setImageLoading(false)}
+                  imageLoading={imageLoading}
+                  priority={false}
                 />
               </ImgLink>
               <SmallTitle>

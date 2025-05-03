@@ -1,4 +1,6 @@
+"use client"
 import { useTranslations } from "next-intl";
+import { useState } from "react";
 import Image from "next/image";
 import {
   OurMissionSection,
@@ -12,7 +14,7 @@ import {
 
 export default function AboutOurMission() {
   const t = useTranslations("AboutMission");
-
+  const [imageLoading, setImageLoading] = useState(true);
   return (
     <OurMissionSection>
       <OurMissionContainer>
@@ -29,16 +31,22 @@ export default function AboutOurMission() {
             </OurMissionDecoration>
           </Content>
           <Image src="/imgs/OurMissionImg .png" alt="subdivision"
-             width={700}
+            width={700}
             height={700}
             style={{ width: '100%', height: 'auto' }}
+            onLoad={() => setImageLoading(false)}
+            imageLoading={imageLoading}
+            priority={false}
           />
         </Wrapper>
         <Wrapper>
           <Image src="/imgs/OurVisionImg.png" alt="groupWorks"
-             width={700}
+            width={700}
             height={700}
             style={{ width: '100%', height: 'auto' }}
+            onLoad={() => setImageLoading(false)}
+            imageLoading={imageLoading}
+            priority={false}
           />
           <Content>
             <BeforeTitle>

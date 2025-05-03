@@ -1,4 +1,6 @@
+"use client"
 import { useTranslations } from "next-intl";
+import { useState } from "react";
 import {
   AboutSection,
   AboutContainer,
@@ -11,7 +13,7 @@ import {
 
 export default function AboutHero() {
   const t = useTranslations("AboutHero");
-
+  const [imageloading, setImageLoading] = useState(true);
 
   return (
     <AboutSection>
@@ -29,9 +31,12 @@ export default function AboutHero() {
         </Content>
         <AboutImg src="/imgs/AboutHeroImg.png"
           alt="aboutHero"
-           width={700}
+          width={700}
           height={700}
           style={{ width: '100%', height: 'auto' }}
+          onLoad={() => setImageLoading(false)}
+          priority={false}
+          imageLoading={imageloading}
         />
       </AboutContainer>
     </AboutSection>

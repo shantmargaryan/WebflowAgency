@@ -17,6 +17,7 @@ import {
 export default function FeaturesItems() {
   const t = useTranslations("FeaturesItems");
   const [featuresItems, setFeaturesItems] = useState([]);
+  const [imageLoading, setImageLoading] = useState(true);
 
   useEffect(() => {
     const fetchFeatures = async () => {
@@ -51,9 +52,12 @@ export default function FeaturesItems() {
               </div>
               <FeaturesImg src={imgs[post?.id - 1]?.path}
                 alt={imgs[post?.id - 1]?.alt}
-                 width={700}
+                width={700}
                 height={700}
                 style={{ width: '100%', height: 'auto' }}
+                onLoad={() => setImageLoading(false)}
+                imageLoading={imageLoading}
+                priority={false}
               />
             </FeaturesItem>
           ))}
