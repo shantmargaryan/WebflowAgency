@@ -8,22 +8,22 @@
   },
   "HomeHero": {
     "title": "Մենք ստեղծում ենք հիանալի կայքեր բոլորի համար",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "description": "Մեր թիմը մասնագիտացած է ժամանակակից, արագ և օպտիմիզացված վեբ կայքերի ստեղծման մեջ։ Մենք օգնում ենք բիզնեսներին աճել առցանց տարածքում։",
     "link": "Դիտեք մեր աշխատանքը"
   },
   "HomeWork": {
     "link": "Կապվեք մեզ հետ",
     "title": "Ինչպես ենք մենք աշխատում",
-    "description": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
+    "description": "Մեր աշխատանքի գործընթացը ներառում է խիստ պլանավորում, ստեղծագործական դիզայն և բարձրորակ ծրագրավորում՝ ձեր բիզնեսի կարիքներին համապատասխան։",
     "Items": {
       "Strategy": "Քննարկում",
-      "StrategyDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
+      "StrategyDescription": "Մենք ուշադիր լսում ենք ձեր կարիքները և մշակում ենք անհատական ռազմավարություն ձեր նախագծի համար։",
       "Wireframing": "Ընթացք",
-      "WireframingDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
+      "WireframingDescription": "Ստեղծում ենք կայքի կառուցվածքը և նախագծում ենք օգտատիրոջ փորձը՝ հաշվի առնելով ձեր բիզնեսի նպատակները։",
       "Design": "Դիզայն",
-      "DesignDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։",
+      "DesignDescription": "Մշակում ենք ժամանակակից և գրավիչ դիզայն, որը արտացոլում է ձեր բրենդի ինքնությունը։",
       "Development": "ծրագրավորում",
-      "DevelopmentDescription": "Հաճախորդի համար շատ կարևոր է հետևել հաճախորդի թրեյնինգին, բայց դա այն է, ինչ տեղի է ունենում միաժամանակ։"
+      "DevelopmentDescription": "Օգտագործում ենք նորագույն տեխնոլոգիաներ՝ ստեղծելու արագ և անվտանգ կայքեր։"
     }
   },
   "HomeProjects": {
@@ -41,33 +41,33 @@
     "title": "Նախագծում, որը լուծում է խնդիրները",
     "Items": {
       "UsesClientFirst": "Առաջին հերթին օգտագործում է հաճախորդը",
-      "UsesClientFirstDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "UsesClientFirstDescription": "Մենք միշտ հաշվի ենք առնում հաճախորդի կարիքները և նախապատվությունը տալիս նրանց բիզնեսի նպատակներին։",
       "TwoFreeRevisionRound": "Անվճար հոստինգ և դոմենստրացիա",
-      "TwoFreeRevisionRoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "TwoFreeRevisionRoundDescription": "Մենք ապահովում ենք անվճար հոստինգ և դոմեն անուն՝ ձեր կայքը արագ գործարկելու համար։",
       "TemplateCustomization": "Կաղապարի հարմարեցում",
-      "TemplateCustomizationDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "TemplateCustomizationDescription": "Մենք հարմարեցնում ենք կայքը ձեր բիզնեսի կարիքներին՝ ապահովելով եզակիություն և ճանաչելիություն։",
       "Support": "Աջակցություն",
-      "SupportDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "SupportDescription": "Մենք ապահովում ենք 24/7 տեխնիկական աջակցություն՝ ձեր կայքի անխափան աշխատանքի համար։",
       "QuickDelivery": "Ժամանակին պատրաստում",
-      "QuickDeliveryDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "QuickDeliveryDescription": "Մենք պահպանում ենք ժամանակացույցը և ապահովում ենք նախագծի ժամանակին ավարտը։",
       "FreeRevisions": "Ազատ վերանայում",
-      "FreeRevisionsDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      "FreeRevisionsDescription": "Մենք առաջարկում ենք անվճար վերանայումներ՝ ձեր կայքը կատարելագործելու համար։"
     }
   },
   "HomeClients": {
     "title": "Այն, ինչ ասում են մեր հաճախորդները մեր մասին",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.",
+    "description": "Մեր հաճախորդների գոհունակությունը մեր հաջողության բանալին է։",
     "Items": {
-      "title": "Մինչ այժմ մենք աշխատել ենք լավագույն գործակալությունը:Նրանք հասկանում են մեր արտադրանքը եւ կարողանում են հիանալի ուշադրության կենտրոնում ավելացնել նոր հնարավորություններ.",
-      "name": "Jenny Wilson",
+      "title": "Մինչ այժմ մենք աշխատել ենք լավագույն գործակալության հետ։ Նրանք հասկանում են մեր արտադրանքը և կարողանում են հիանալի ուշադրության կենտրոնում ավելացնել նոր հնարավորություններ։",
+      "name": "Ջենի Ուիլսոն",
       "position": "Փոխնախագահ"
     }
   },
   "HomeSendInquery": {
     "title": "Մենք ստեղծում ենք հիանալի կայքեր բոլորի բիզնեսների համար",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "description": "Կապվեք մեզ հետ և ստացեք անվճար խորհրդատվություն ձեր նախագծի վերաբերյալ։",
     "secoundTitle": "Ուղարկել հարցում",
-    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "secoundDescription": "Լրացրեք ձեր տվյալները, և մենք կկապվենք ձեզ հետ ամենաանհրաժեշտ մանրամասներով։",
     "button": "Ուղարկել",
     "link": "Կապվեք մեզ հետ"
   },
