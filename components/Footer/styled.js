@@ -27,6 +27,7 @@ export const Title = styled.h3`
 export const FooterParagraph = styled.p`
   ${Paragraph}
   max-width: 28rem;
+  margin-block-start: 1rem;
   color: ${({ theme }) => theme.colors.white};
   `
 
@@ -40,6 +41,8 @@ export const SocialList = styled.ul`
 export const Item = styled.li`
 
 & svg {
+  width: 1.7rem;
+  height: 1.7rem;
   fill: ${({ theme }) => theme.colors.white};
 }
 `
@@ -79,15 +82,12 @@ export const ScrollToTop = styled.button`
   opacity: ${({ isvisible }) => (isvisible ? 1 : 0)};
   pointer-events: ${({ isvisible }) => (isvisible ? "auto" : "none")};
   transition: opacity 0.4s ease 0s;
-  border: 1px solid ${({ theme }) => theme.colors.white};
   border-radius: 50%;
-
-  [data-theme="light"] & {
-    border: 1px solid ${({ theme }) => theme.colors.darkBlue};
-  }
+  background-color: ${({ theme }) => theme.colors.yellow};
 
   svg {
     transition: transform 0.4s ease 0s;
+    fill: ${({ theme }) => theme.colors.darkBlue};
   }
 
   &:hover svg {

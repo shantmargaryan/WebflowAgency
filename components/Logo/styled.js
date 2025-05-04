@@ -6,6 +6,7 @@ export const LogoLink = styled(NextLink)`
   ${NextLink}
   display: block;
   z-index: 11;
+  width: fit-content;
   text-decoration: none;
   font-size: clamp(1rem, 5vw, 2rem);
   color: ${({ theme }) => theme.colors.white};

@@ -17,6 +17,7 @@ import ThemeSwicher from "../ThemeSwicher";
 import { useTranslations } from "next-intl";
 import { links } from "./links";
 import { usePathname } from "next/navigation";
+import CallIcon from '@mui/icons-material/Call';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,11 +63,11 @@ export default function Header() {
               ))
             }
           </NavList>
-          <PhoneNumber href="tel:+37455212205">
-            +37455212205
-          </PhoneNumber>
         </Nav>
         <UtilButtons>
+          <PhoneNumber href="tel:+37455212205">
+            <CallIcon />
+          </PhoneNumber>
           <MultiLangButton />
           <ThemeSwicher />
         </UtilButtons>

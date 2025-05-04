@@ -52,15 +52,16 @@ export const PhoneNumber = styled.a`
   ${LinkReset}
     position: relative;
     isolation: isolate;
-    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
-    font-size: 20px;
-    font-weight: 500;
+    width: fit-content;
     overflow: hidden;
-    padding: 0.625rem 1.25rem;
+    padding: 0.625rem;
     background-color: #fcd980;
     color: #282938;
-    border-radius: 2.5625rem;
+    border-radius: 50%;
 
     &::before {
       content: "";

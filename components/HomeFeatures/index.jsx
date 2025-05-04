@@ -39,25 +39,26 @@ export default function HomeFeatures() {
           </FeaturesTitle>
         </Content>
         <List>
-          {homeFeatures.map(({ id, title, description }) => (
-            <Item key={id}>
-              <Icon
-                src={svgs[id - 1].path}
-                alt="icons"
-                width={32}
-                height={32}
-                onLoad={() => setImageLoading(false)}
-                imageLoading={imageLoading}
-                priority={false}
-              />
-              <ItemTitle>
-                {t2(title)}
-              </ItemTitle>
-              <ItemParagraph>
-                {t2(description)}
-              </ItemParagraph>
-            </Item>
-          ))}
+          {
+            homeFeatures.map(({ id, title, description }) => (
+              <Item key={id}>
+                <Icon
+                  src={svgs[id - 1].path}
+                  alt="icons"
+                  width={32}
+                  height={32}
+                  onLoad={() => setImageLoading(false)}
+                  imageLoading={imageLoading}
+                  priority={false}
+                />
+                <ItemTitle>
+                  {t2(title)}
+                </ItemTitle>
+                <ItemParagraph>
+                  {t2(description)}
+                </ItemParagraph>
+              </Item>
+            ))}
         </List>
       </FeaturesContainer>
     </FeaturesSection>
