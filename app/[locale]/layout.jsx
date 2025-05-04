@@ -34,7 +34,7 @@ export const metadata = {
   alternates: {
     canonical: "https://web-flow.am",
     languages: {
-      'hy-AM': '/hy',
+      'am-AM': '/am',
       'en-US': '/en',
     },
   },
