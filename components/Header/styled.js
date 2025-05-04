@@ -51,7 +51,7 @@ export const Nav = styled.nav`
 export const PhoneNumber = styled.a`
   ${LinkReset}
     position: relative;
-    isolation: isolate;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,29 +62,6 @@ export const PhoneNumber = styled.a`
     background-color: #fcd980;
     color: #282938;
     border-radius: 50%;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      width: 100%;
-      height: 100%;
-      background-color:rgba(231, 178, 44, 0.6);
-      transition: transform 0.4s ease;
-      transform-origin: right;
-      transform: scaleX(0);
-    }
-
-    &:hover::before {
-      transform-origin: left;
-      transform: scaleX(1);
-    }
-
-  @media (${({ theme }) => theme.media.laptop}) {
-    font-size: 18px;
-  }
   `
 
 export const NavList = styled.ul`
