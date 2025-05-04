@@ -117,12 +117,18 @@
   "AboutBenefits": {
     "title": "The benefits of working with us",
     "Items": {
-      "title": "Easy work",
-      "description": "We make the web development process smooth and hassle-free for our clients.",
-      "secoundTitle": "Perfectly Responsive",
-      "secoundDescription": "We ensure your website looks and works perfectly across all devices and platforms.",
-      "thirdTitle": "Friendly Support",
-      "thirdDescription": "Our team provides friendly and professional support throughout your project journey."
+      "firstSmallText": {
+        "title": "Easy work",
+        "description": "We make the web development process smooth and hassle-free for our clients."
+      },
+      "secondSmallText": {
+        "title": "Perfectly Responsive",
+        "description": "We ensure your website looks and works perfectly across all devices and platforms."
+      },
+      "thirdSmallText": {
+        "title": "Friendly Support",
+        "description": "Our team provides friendly and professional support throughout your project journey."
+      }
     }
   },
   "AboutTeam": {

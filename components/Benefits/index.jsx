@@ -9,10 +9,16 @@ import {
   SmallParagraph,
   SmallTitle,
 } from "./styled";
-
+import { svgs } from "./svgs";
 export default function AboutBenefits() {
   const t = useTranslations("AboutBenefits")
   const t2 = useTranslations("AboutBenefits.Items")
+
+  const items = [
+    "firstSmallText",
+    "secondSmallText",
+    "thirdSmallText"
+  ]
 
   return (
     <BenefitsSection>
@@ -21,43 +27,22 @@ export default function AboutBenefits() {
           {t("title")}
         </BenefitsTitle>
         <BenefitsList>
-          <BenefitsItem>
-            <BenefitsImg src="/svg/HandsOnApproach.svg"
-              alt="icons"
-              width={30}
-              height={30}
-            />
-            <SmallTitle>
-              {t2("title")}
-            </SmallTitle>
-            <SmallParagraph>
-              {t2("description")}
-            </SmallParagraph>
-          </BenefitsItem>
-          <BenefitsItem>
-            <BenefitsImg src="/svg/TemplateCustmization.svg" alt="icons"
-              width={30}
-              height={30}
-            />
-            <SmallTitle>
-              {t2("secoundTitle")}
-            </SmallTitle>
-            <SmallParagraph>
-              {t2("secoundDescription")}
-            </SmallParagraph>
-          </BenefitsItem>
-          <BenefitsItem>
-            <BenefitsImg src="/svg/UsesClientFirst.svg" alt="icons"
-              width={30}
-              height={30}
-            />
-            <SmallTitle>
-              {t2("thirdTitle")}
-            </SmallTitle>
-            <SmallParagraph>
-              {t2("thirdDescription")}
-            </SmallParagraph>
-          </BenefitsItem>
+          {items.map((item, index) => (
+            <BenefitsItem key={item}>
+              <BenefitsImg
+                src={svgs[index]?.src}
+                alt={svgs[index]?.alt}
+                width={30}
+                height={30}
+              />
+              <SmallTitle>
+                {t2(`${item}.title`)}
+              </SmallTitle>
+              <SmallParagraph>
+                {t2(`${item}.description`)}
+              </SmallParagraph>
+            </BenefitsItem>
+          ))}
         </BenefitsList>
       </BenefitsContainer>
     </BenefitsSection>
