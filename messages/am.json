@@ -76,53 +76,53 @@
     "title": "Ինչպես է մեկ վեբ հոսքի օգտագործողը 14 ամսվա ընթացքում աճել է իր մեկ անձի խորհրդատվությունից 0-100% -ից",
     "secoundTitle": "Ինչպես է մեկ վեբ հոսքի օգտագործողը 14 ամսվա ընթացքում աճել է իր մեկ անձի խորհրդատվությունից 0-100% -ից",
     "thirdTitle": "Ինչպես է մեկ վեբ հոսքի օգտագործողը 14 ամսվա ընթացքում աճել է իր մեկ անձի խորհրդատվությունից 0-100% -ից",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "description": "Բացահայտեք ռազմավարությունները և գործիքները, որոնք օգնել են մեկ անձի գործունեությունը վերածել ծաղկող բիզնեսի։",
+    "secoundDescription": "Սովորեք, թե ինչպես նորարար վեբ լուծումները կարող են արագացնել ձեր բիզնեսի աճը։",
+    "thirdDescription": "Ուսումնասիրեք առցանց ներկայության հաջող կառուցման ճանապարհը զրոյից։",
     "link": "Կարդալ ավելին"
   },
   "AboutHero": {
     "beforeTitle": "Մեր մասին",
     "title": "Մեր ընկերությունը լուծում է խնդիրները",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    "description": "Մենք մասնագիտացած ենք թվային լուծումների ստեղծման մեջ, որոնք լուծում են իրական բիզնես խնդիրներ և նպաստում աճին։"
   },
   "AboutWhoWeAre": {
     "beforeTitle": "Ով ենք մենք",
     "title": "Մեր նպատակը կենտրոնացած է",
     "secoundTitle": "Շարունակական բարելավում",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    "description": "Մենք նվիրված ենք բացառիկ վեբ լուծումների մատուցմանը, որոնք օգնում են բիզնեսներին հաջողության հասնել առցանց տարածքում։",
+    "secoundDescription": "Մենք անընդհատ զարգացնում ենք մեր գործընթացները և տեխնոլոգիաները՝ թվային տարածքում առաջատար մնալու համար։"
   },
   "AboutFollow": {
     "title": "Գործընթացը, որը մենք հետեւում ենք",
     "Items": {
       "planning": "Պլանավորում",
-      "planningDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "planningDescription": "Մենք սկսում ենք ձեր պահանջների մանրամասն վերլուծությամբ և ստեղծում համապարփակ նախագծային պլան։",
       "conception": "Հասկացողություն",
-      "conceptionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "conceptionDescription": "Մենք մշակում ենք նորարար հայեցակարգեր, որոնք համապատասխանում են ձեր բրենդին և բիզնեսի նպատակներին։",
       "design": "Դիզայն",
-      "designDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "designDescription": "Մենք ստեղծում ենք տեսողական գրավիչ և օգտագործողի համար հարմար դիզայններ, որոնք բարելավում են ձեր բրենդի ինքնությունը։",
       "development": "Մշակում",
-      "developmentDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      "developmentDescription": "Մենք կառուցում ենք ամուր և մասշտաբելի կայքեր՝ օգտագործելով նորագույն տեխնոլոգիաները և լավագույն պրակտիկաները։"
     }
   },
   "AboutMission": {
     "beforeTitle": "Մեր առաքելությունը",
     "title": "նորարարեք, կիսվեք",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "description": "Մենք ձգտում ենք նորարարել վեբ զարգացման ոլորտում՝ կիսելով մեր գիտելիքներն ու փորձը մեր հաճախորդների հետ։",
     "secoundBeforeTitle": "Մեր տեսլականը",
     "secoundTitle": "Ամեն ինչ անում ենք մեր հաջախորտների համար",
-    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    "secoundDescription": "Մեր տեսլականն է լինել առաջատար վեբ զարգացման գործընկեր, որին բիզնեսները վստահում են իրենց թվային հաջողության համար։"
   },
   "AboutBenefits": {
     "title": "Մեզ հետ աշխատելու առավելությունները",
     "Items": {
       "title": "Աշխատանքի հեշտություն",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "description": "Մենք վեբ զարգացման գործընթացը դարձնում ենք հարթ և անհոգ մեր հաճախորդների համար։",
       "secoundTitle": "Կատարյալ պատասխանատու",
-      "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "secoundDescription": "Մենք ապահովում ենք, որ ձեր կայքը կատարյալ տեսք ունենա և աշխատի բոլոր սարքերի և հարթակների վրա։",
       "thirdTitle": "Ընկերական աջակցություն",
-      "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      "thirdDescription": "Մեր թիմը ապահովում է ընկերական և պրոֆեսիոնալ աջակցություն ձեր նախագծի ողջ ընթացքում։"
     }
   },
   "AboutTeam": {
@@ -138,22 +138,22 @@
   },
   "FeaturesHero": {
     "title": "Ձեզ անհրաժեշտ բոլոր հատկությունները",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "description": "Մենք առաջարկում ենք ամբողջական վեբ զարգացման լուծումներ՝ ձեր բիզնեսի հաջողության համար անհրաժեշտ բոլոր հիմնական հատկություններով։",
     "link": "Դիտեք մեր աշխատանքը"
   },
   "FeaturesItems": {
     "beforeTitle": "Հաճախորդի կարծիքը",
     "title": "Հաճախորդի կարծիքը մեզ համար շատ կարևոր է",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "description": "Մենք արժևորում ենք մեր հաճախորդների արձագանքը և օգտագործում ենք այն մեր ծառայությունները անընդհատ բարելավելու և ավելի լավ արդյունքներ տալու համար։",
     "secoundBeforeTitle": "Վերանայման փուլեր",
     "secoundTitle": "Ստեղծում ենք լավագույն աշխատանքը մեր հաճախորդի համար",
-    "secoundDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "secoundDescription": "Մեր վերանայման գործընթացը ապահովում է, որ յուրաքանչյուր նախագիծ համապատասխանի որակի և հաճախորդի գոհունակության ամենաբարձր չափանիշներին։",
     "thirdBeforeTitle": "աջակցություն",
     "thirdTitle": "Աշխատելով մեզ հետ, դուք կստանաք լավագույն սպասարկում",
-    "thirdDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "thirdDescription": "Մեր նվիրված աջակցության թիմը միշտ պատրաստ է օգնել ձեզ ցանկացած հարցի կամ մտահոգության հետ կապված։",
     "fourthBeforeTitle": "Ժամանակին պատրաստում",
     "fourthTitle": "Երաշխավորված որակյալ աշխատանք",
-    "fourthDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+    "fourthDescription": "Մենք նախագծերը հանձնում ենք ժամանակին՝ առանց որակից զիջելու՝ ապահովելով ձեր բիզնեսի նպատակների իրականացումը։"
   },
   "ProjectsHero": {
     "beforeTitle": "Այն, ինչ մենք ստեղծեցինք",
@@ -197,28 +197,40 @@
   "SingleProjectHero": {
     "beforeTitle": "Վեբ ձեւավորում եւ զարգացում",
     "title": "Պրոյեկտի մասին ուսումնասիրել",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."
+    "description": "Ուսումնասիրեք մեր մանրամասն դեպքերի ուսումնասիրությունները՝ հասկանալու համար, թե ինչպես ենք մենք բիզնեսի պահանջները վերածում հաջող թվային լուծումների։"
   },
   "ProjectAbout": {
     "title": "Պրոյեկտի մասին",
     "items": {
       "1": {
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "firstSmallText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "secondSmallText": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
-        "thirdSmallText": "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        "description": "Մեր էլեկտրոնային առևտրի լուծումը ապահովում է անխափան գնումների փորձ՝ ապրանքների կառավարման, անվտանգ վճարումների և հաճախորդների ներգրավման առաջադեմ հնարավորություններով։",
+        "firstSmallText": "Ժամանակակից և պատասխանատու դիզայն",
+        "secondSmallText": "Անվտանգ վճարումների ինտեգրացիա",
+        "thirdSmallText": "Առաջադեմ ապրանքների կառավարում"
       },
       "2": {
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
-        "firstSmallText": "Lorem ipsum dolor sit amet",
-        "secondSmallText": "Quis nostrud exercitation",
-        "thirdSmallText": "Duis aute irure dolor in reprehenderit"
+        "description": "Վարսավիրանոցի կայքը համատեղում է նրբագեղ դիզայնը գործնական ամրագրման ֆունկցիոնալությամբ՝ հաճախորդի փորձը բարելավելու համար։",
+        "firstSmallText": "Առցանց ամրագրման համակարգ",
+        "secondSmallText": "Ծառայությունների ցուցադրում",
+        "thirdSmallText": "Հաճախորդների ակնարկներ"
       },
       "3": {
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-        "firstSmallText": "Lorem ipsum dolor sit amet, consectetur",
-        "secondSmallText": "Quis nostrud exercitation ullamco laboris",
-        "thirdSmallText": "Duis aute irure dolor in reprehenderit in voluptate velit esse"
+        "description": "Մեր կահույքի խանութի հարթակն առաջարկում է ընկղմող գնումների փորձ՝ 3D ապրանքի վիզուալիզացիայով և հեշտ նավարկությամբ։",
+        "firstSmallText": "3D ապրանքի ցուցադրում",
+        "secondSmallText": "Առաջադեմ ֆիլտրացիա",
+        "thirdSmallText": "Անվտանգ վճարում"
+      },
+      "4": {
+        "description": "Խաղերի կայքը բնութագրվում է ներգրավիչ ինտերֆեյսով՝ ինտերակտիվ տարրերով և հարթ աշխատանքով։",
+        "firstSmallText": "Ինտերակտիվ դիզայն",
+        "secondSmallText": "Բարձր արտադրողականություն",
+        "thirdSmallText": "Օգտագործողի ներգրավում"
+      },
+      "5": {
+        "description": "Ֆոտոստուդիայի կայքը ցուցադրում է պրոֆեսիոնալ աշխատանքը մաքուր, նրբագեղ դիզայնով և հեշտ պորտֆոլիոյի նավարկությամբ։",
+        "firstSmallText": "Պորտֆոլիոյի ցուցադրում",
+        "secondSmallText": "Ամրագրման համակարգ",
+        "thirdSmallText": "Հաճախորդների պատկերասրահ"
       }
     }
   },
