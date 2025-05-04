@@ -14,7 +14,7 @@ export const metadata = {
   keywords: "Վեբ flow, վեբ ձեւավորում, վեբ մշակում, գործակալություն, թվային գործակալություն",
   openGraph: {
     type: "website",
-    locale: "hy-AM",
+    locale: "am-AM",
     url: "https://web-flow.am",
     siteName: "Web flow",
     title: "Web flow - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ",
