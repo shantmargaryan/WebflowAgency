@@ -66,6 +66,32 @@ export function GET() {
       "imgUrl": "/imgs/photoStudioImg2.png",
       "alt": "project"
     },
+    {
+      "id": 6,
+      "title": "sixthTitle",
+      "language": "sixthLanguage",
+      "development": "sixthDevelopment",
+      "page": "sixthPage",
+      "price": "sixthPrice",
+      "viewMore": "viewMore",
+      "href": "https://shantmargaryan.github.io/plaster/",
+      "path": "/imgs/PlaterImg1.png",
+      "imgUrl": "/imgs/PlasterImg2.png",
+      "alt": "project"
+    },
+    {
+      "id": 7,
+      "title": "seventhTitle",
+      "language": "seventhLanguage",
+      "development": "seventhDevelopment",
+      "page": "seventhPage",
+      "price": "seventhPrice",
+      "viewMore": "viewMore",
+      "href": "https://shantmargaryan.github.io/construction/",
+      "path": "/imgs/constructionImg1.png",
+      "imgUrl": "/imgs/constructionImg2.png",
+      "alt": "project"
+    }
   ]
   return NextResponse.json(posts)
 }

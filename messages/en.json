@@ -194,6 +194,16 @@
     "fifthLanguage": "HTML, CSS, JS",
     "fifthDevelopment": "Frontend",
     "fifthPrice": "50000 AMD",
+    "sixthTitle": "Plaster",
+    "sixthPage": "Multipage",
+    "sixthLanguage": "HTML, CSS, JS",
+    "sixthDevelopment": "Frontend",
+    "sixthPrice": "50000 AMD",
+    "seventhTitle": "Construction",
+    "seventhPage": "Multipage",
+    "seventhLanguage": "HTML, CSS, JS",
+    "seventhDevelopment": "Frontend",
+    "seventhPrice": "50000 AMD",
     "ProjectAboutInfo": {
       "language": "Language",
       "development": "Development",
@@ -237,6 +247,18 @@
         "firstSmallText": "Portfolio showcase",
         "secondSmallText": "Booking system",
         "thirdSmallText": "Client gallery"
+      },
+      "6": {
+        "description": "The plastering website contains a professional showcase of services, easy navigation and contact options.",
+        "firstSmallText": "Services showcase",
+        "secondSmallText": "Contact integration",
+        "thirdSmallText": "Portfolio display"
+      },
+      "7": {
+        "description": "The construction website presents professional services, project gallery and easy contact options.",
+        "firstSmallText": "Services display",
+        "secondSmallText": "Projects gallery",
+        "thirdSmallText": "Free consultation"
       }
     }
   },

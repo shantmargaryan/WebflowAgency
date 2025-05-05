@@ -84,9 +84,14 @@ export const ImgLink = styled(NextLink)`
   `
 
 export const ProjectsImg = styled(Img)`
-margin-block-end: 1rem;
-border-radius: 15px;
-`
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.4s ease, filter 0.4s ease;
+  opacity: ${({ imageLoading }) => imageLoading ? '0' : '1'};
+  filter: blur(${({ imageLoading }) => imageLoading ? '10px' : '0px'});
+`;
 
 export const Price = styled.span`
   margin-block-end: 0.5rem;

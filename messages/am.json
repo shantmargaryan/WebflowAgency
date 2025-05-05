@@ -194,6 +194,16 @@
     "fifthLanguage": "HTML, CSS, JS",
     "fifthDevelopment": "Frontend",
     "fifthPrice": "50000 ԴՐԱՄ",
+    "sixthTitle": "Սվաղ և շինարանություն",
+    "sixthPage": "Multipage",
+    "sixthLanguage": "HTML, CSS, JS",
+    "sixthDevelopment": "Frontend",
+    "sixthPrice": "50000 ԴՐԱՄ",
+    "seventhTitle": "Շինարանություն",
+    "seventhPage": "Multipage",
+    "seventhLanguage": "HTML, CSS, JS",
+    "seventhDevelopment": "Frontend",
+    "seventhPrice": "50000 ԴՐԱՄ",
     "ProjectAboutInfo": {
       "language": "լեզու",
       "development": "ծրագրավորում",
@@ -237,6 +247,18 @@
         "firstSmallText": "Պորտֆոլիոյի ցուցադրում",
         "secondSmallText": "Ամրագրման համակարգ",
         "thirdSmallText": "Հաճախորդների պատկերասրահ"
+      },
+      "6": {
+        "description": "Սվաղի կայքը պարունակում է ծառայությունների մասնագիտական ​​ցուցափեղկ, հեշտ նավարկության եւ կոնտակտային տարբերակներով:",
+        "firstSmallText": "Ծառայությունների ցուցափեղկ",
+        "secondSmallText": "Կոնտակտային ինտեգրում",
+        "thirdSmallText": "Պորտֆոլիոյի ցուցադրում"
+      },
+      "7": {
+        "description": "Շինարարական կայքը ներկայացնում է մասնագիտական ծառայություններ, նախագծերի պատկերասրահ և հեշտ կապի հնարավորություններ։",
+        "firstSmallText": "Ծառայությունների ցուցադրում",
+        "secondSmallText": "Նախագծերի պատկերասրահ",
+        "thirdSmallText": "Անվճար խորհրդատվություն"
       }
     }
   },

@@ -23,5 +23,15 @@ export const Images = [
     id: 5,
     path: "/imgs/photoStudioImg1.png",
     alt: "projects",
-  }
+  },
+  {
+    id: 6,
+    path: "/imgs/PlaterImg1.png",
+    alt: "projects",
+  },
+  {
+    id: 7,
+    path: "/imgs/constructionImg1.png",
+    alt: "projects",
+  },
 ]
