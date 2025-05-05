@@ -85,9 +85,8 @@ export const ImgLink = styled(NextLink)`
 
 export const ProjectsImg = styled(Img)`
   display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  margin-block-end: 15px;
+  border-radius: 15px;
   transition: opacity 0.4s ease, filter 0.4s ease;
   opacity: ${({ imageLoading }) => imageLoading ? '0' : '1'};
   filter: blur(${({ imageLoading }) => imageLoading ? '10px' : '0px'});
