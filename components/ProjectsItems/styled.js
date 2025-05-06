@@ -48,6 +48,7 @@ export const Page = styled.span`
   position: absolute;
   top: 10px;
   left: 10px;
+  z-index: 10;
   padding: 5px;
   border-radius: 15px;
   background-color: ${({ theme }) => theme.colors.tintBlue};
