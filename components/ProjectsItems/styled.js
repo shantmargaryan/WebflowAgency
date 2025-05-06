@@ -1,7 +1,7 @@
 "use client"
 import styled from "styled-components";
 import { Section, Container, SecondaryTitle, Img } from "@/styled/mixStyle";
-import { ListReset, NextLink, LinkReset } from "@/styled/reset";
+import { ListReset, NextLink, ButtonReset } from "@/styled/reset";
 
 
 export const ProjectsSection = styled.section`
@@ -96,3 +96,23 @@ export const Price = styled.span`
   margin-block-end: 0.5rem;
   font-weight: 600;
   `
+
+export const LoadMoreButton = styled.button`
+  ${ButtonReset}
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: ${({ theme }) => theme.colors.yellow};
+  border-radius: 4px;
+  margin: 50px auto 0 auto;
+  font-weight: 600;
+  color: ${({ theme }) => theme.colors.darkBlue};
+  transition: background-color 0.3s ease,
+  transform 0.3s ease;
+  transform: translateY(0);
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+`;

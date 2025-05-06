@@ -17,12 +17,20 @@ import {
   Development,
   ProjectsImg,
   ImgLink,
-  Price
+  Price,
+  LoadMoreButton
 } from "./styled";
 
 export default function ProjectsItems({ posts }) {
   const t = useTranslations("ProjectsItems");
   const [imageLoading, setImageLoading] = useState(true);
+  const [visiblePosts, setVisiblePosts] = useState(6);
+
+  const loadMore = () => {
+    setVisiblePosts(prev => prev + 6);
+  };
+
+  const hasMorePosts = visiblePosts < posts?.length;
 
   return (
     <ProjectsSection>
@@ -32,7 +40,7 @@ export default function ProjectsItems({ posts }) {
         </ProjectsTitle>
         <List>
           {
-            posts?.map((post) => (
+            posts?.slice(0, visiblePosts).map((post) => (
               <Item key={post.id}>
                 <ImgLink href={`/projects/${post?.id}`}>
                   <Page>
@@ -70,6 +78,15 @@ export default function ProjectsItems({ posts }) {
               </Item>
             ))}
         </List>
+        {
+          hasMorePosts && (
+            <LoadMoreButton
+              onClick={loadMore}
+            >
+              {t("loadMore")}
+              <ArrowRight size={20} />
+            </LoadMoreButton>
+          )}
       </ProjectsContainer>
     </ProjectsSection>
   );
