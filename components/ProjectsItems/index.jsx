@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { MoveRight as ArrowRight } from "lucide-react";
 import { Images } from "./images";
+import SearchBar from "@/components/SearchBar";
 import {
   ProjectsSection,
   ProjectsContainer,
@@ -25,12 +26,27 @@ export default function ProjectsItems({ posts }) {
   const t = useTranslations("ProjectsItems");
   const [imageLoading, setImageLoading] = useState(true);
   const [visiblePosts, setVisiblePosts] = useState(6);
+  const [searchTerm, setSearchTerm] = useState('');
 
   const loadMore = () => {
     setVisiblePosts(prev => prev + 6);
   };
 
-  const hasMorePosts = visiblePosts < posts?.length;
+  const handleSearch = (term) => {
+    setSearchTerm(term);
+  };
+
+  const filteredPosts = posts?.filter(post => {
+    const searchLower = searchTerm.toLowerCase();
+    return (
+      t(post?.title).toLowerCase().includes(searchLower) ||
+      t(post?.language).toLowerCase().includes(searchLower) ||
+      t(post?.development).toLowerCase().includes(searchLower) ||
+      t(post?.page).toLowerCase().includes(searchLower)
+    );
+  });
+
+  const hasMorePosts = visiblePosts < filteredPosts?.length;
 
   return (
     <ProjectsSection>
@@ -38,9 +54,10 @@ export default function ProjectsItems({ posts }) {
         <ProjectsTitle>
           {t("currentTitle")}
         </ProjectsTitle>
+        <SearchBar onSearch={handleSearch} />
         <List>
           {
-            posts?.slice(0, visiblePosts).map((post) => (
+            filteredPosts?.slice(0, visiblePosts).map((post) => (
               <Item key={post.id}>
                 <ImgLink href={`/projects/${post?.id}`}>
                   <Page>

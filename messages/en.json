@@ -205,6 +205,7 @@
     "seventhLanguage": "HTML, CSS, JS",
     "seventhDevelopment": "Frontend",
     "seventhPrice": "50000 AMD",
+    "searchPlaceholder": "Search projects...",
     "ProjectAboutInfo": {
       "language": "Language",
       "development": "Development",

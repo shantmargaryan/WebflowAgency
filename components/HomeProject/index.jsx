@@ -67,9 +67,9 @@ export default function HomeProject() {
               />
             </Item>
             <Item>
-              <ImgLink href="/worksSingle">
-                <ProjectImg src="/imgs/projectImg3.png" alt="project"
-                  target="_blank"
+              <ImgLink href="https://shantmargaryan.github.io/PopYRus/"
+                target="_blank">
+                <ProjectImg src="/imgs/PapYRus.png" alt="project"
                   width={700}
                   height={700}
                   style={{ width: '100%', height: 'auto' }}

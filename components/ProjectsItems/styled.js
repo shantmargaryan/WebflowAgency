@@ -23,7 +23,7 @@ export const List = styled.ul`
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax( 300px, 1fr ) );
   justify-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   `
 
 export const Item = styled.li`
@@ -48,7 +48,7 @@ export const Page = styled.span`
   position: absolute;
   top: 10px;
   left: 10px;
-  z-index: 10;
+  z-index: 9;
   padding: 5px;
   border-radius: 15px;
   background-color: ${({ theme }) => theme.colors.tintBlue};
