@@ -49,7 +49,9 @@ export default function Header() {
     <HeaderWrapper ref={headerRef}>
       <HeaderContainer>
         <Logo />
-        <Nav isopen={isOpen ? "true" : "false"} headerheight={headerHeight}>
+        <Nav isopen={isOpen ? "true" : "false"}
+          headerheight={headerHeight}
+          role="navigation">
           <NavList>
             {
               links.map(({ href, label }) => (
