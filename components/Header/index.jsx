@@ -1,84 +1,48 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import { TransitionLink } from "@/Utils/TransitionLink";
-import {
-  HeaderWrapper,
-  HeaderContainer,
-  Nav,
-  NavList,
-  Burger,
-  BurgerLine,
-  UtilButtons,
-  PhoneNumber
-} from "./styled";
-import Logo from "../Logo";
-import MultiLangButton from "../MultiLangButton";
-import ThemeSwicher from "../ThemeSwicher";
 import { useTranslations } from "next-intl";
-import { links } from "./links";
 import { usePathname } from "next/navigation";
-import CallIcon from '@mui/icons-material/Call';
+import { HeaderWrapper, HeaderContainer } from "./styled";
+import Logo from "../Logo";
+import UtilityButtons from "./UtilityButtons";
+import BurgerMenu from "./BurgerMenu";
+import Navigation from "./Navigation";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const headerRef = useRef(null);
   const t = useTranslations("NavLinks");
 
-
   useEffect(() => {
-    if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-      if (isOpen) {
-        const scrollbarWidth = window.innerWidth - document.body.offsetWidth;
-        document.body.style.paddingRight = `${scrollbarWidth}px`;
-        document.body.style.overflow = "hidden";
-      } else {
-        document.body.style.paddingRight = "0";
-        document.body.style.overflow = "visible";
-      }
+    if (typeof window !== "undefined" && typeof document !== "undefined") {
+      document.body.style.paddingRight = isOpen
+        ? `${window.innerWidth - document.body.offsetWidth}px`
+        : "0";
+      document.body.style.overflow = isOpen ? "hidden" : "visible";
     }
   }, [isOpen]);
 
-  const header = headerRef?.current;
-  const headerHeight = header?.offsetHeight;
-  const pathname = usePathname();
-  const linkActive = pathname.slice(4).toLowerCase() === "" ? "home" : pathname.slice(4).toLowerCase();
+  const getActiveLink = () => {
+    const pathname = usePathname();
+    return pathname.slice(4).toLowerCase() === "" ? "home" : pathname.slice(4).toLowerCase();
+  };
 
-
+  const linkActive = getActiveLink();
 
   return (
     <HeaderWrapper ref={headerRef}>
       <HeaderContainer>
         <Logo />
-        <Nav isopen={isOpen ? "true" : "false"}
-          headerheight={headerHeight}
-          role="navigation">
-          <NavList>
-            {
-              links.map(({ href, label }) => (
-                <li key={href}>
-                  <TransitionLink href={href}
-                    isactive={label === linkActive ? "true" : "false"}
-                    onClick={() => setIsOpen(false)}>
-                    {t(label)}
-                  </TransitionLink>
-                </li>
-              ))
-            }
-          </NavList>
-        </Nav>
-        <UtilButtons>
-          <PhoneNumber href="tel:+37455212205">
-            <CallIcon />
-          </PhoneNumber>
-          <MultiLangButton />
-          <ThemeSwicher />
-        </UtilButtons>
-        <Burger onClick={() => setIsOpen(!isOpen)}>
-          <BurgerLine></BurgerLine>
-          <BurgerLine></BurgerLine>
-          <BurgerLine></BurgerLine>
-        </Burger>
+        <Navigation
+          isOpen={isOpen}
+          headerHeight={headerRef?.current?.offsetHeight}
+          linkActive={linkActive}
+          setIsOpen={setIsOpen}
+          t={t}
+        />
+        <UtilityButtons />
+        <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
       </HeaderContainer>
-    </HeaderWrapper >
+    </HeaderWrapper>
   );
 }
