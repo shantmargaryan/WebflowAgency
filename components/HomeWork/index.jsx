@@ -13,8 +13,22 @@ export default function HomeWork() {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        // Check if data is cached in sessionStorage
+        const cachedData = sessionStorage.getItem("homeWorkItems");
+        if (cachedData) {
+          setHomeWorkItems(JSON.parse(cachedData));
+          return;
+        }
+
+        // Fetch data from the API if not cached
         const data = await fetch("/api/homeWorksItems");
+        if (!data.ok) {
+          throw new Error(`HTTP error! status: ${data.status}`);
+        }
         const { homeWorkItems: items } = await data.json();
+
+        // Cache the data in sessionStorage
+        sessionStorage.setItem("homeWorkItems", JSON.stringify(items));
         setHomeWorkItems(items);
       } catch (error) {
         console.error("Error fetching work items:", error);
@@ -52,5 +66,5 @@ export default function HomeWork() {
         </List>
       </HomeWorkContainer>
     </HomeWorkSection>
-  )
+  );
 }

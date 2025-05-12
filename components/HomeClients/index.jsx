@@ -18,14 +18,24 @@ export default function HomeClients() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data = await fetch("/api/homeClients");
-        const { homeClients } = await data.json();
+        // Check if data is already in localStorage
+        const cachedData = localStorage.getItem("homeClients");
+        if (cachedData) {
+          setHomeClients(JSON.parse(cachedData));
+          return;
+        }
+
+        // Fetch data from API if not cached
+        const response = await fetch("/api/homeClients");
+        const { homeClients } = await response.json();
+
+        // Save data to state and cache it in localStorage
         setHomeClients(homeClients);
+        localStorage.setItem("homeClients", JSON.stringify(homeClients));
       } catch (error) {
         console.error("Error fetching clients:", error);
       }
     };
-
 
     fetchData();
   }, []);
@@ -75,5 +85,5 @@ export default function HomeClients() {
         </Swiper>
       </ClientsContainer>
     </ClientsSection>
-  )
+  );
 }

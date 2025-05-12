@@ -13,11 +13,22 @@ export default function HomeFeatures() {
   useEffect(() => {
     const fetchFeatures = async () => {
       try {
+        // Check if data is cached in sessionStorage
+        const cachedData = sessionStorage.getItem("homeFeatures");
+        if (cachedData) {
+          setHomeFeatures(JSON.parse(cachedData));
+          return;
+        }
+
+        // Fetch data from the API if not cached
         const response = await fetch("/api/homeFeatures");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const { homeFeatures: features } = await response.json();
+
+        // Cache the data in sessionStorage
+        sessionStorage.setItem("homeFeatures", JSON.stringify(features));
         setHomeFeatures(features);
       } catch (error) {
         console.error("Error fetching features:", error);
@@ -58,9 +69,10 @@ export default function HomeFeatures() {
                   {t2(description)}
                 </ItemParagraph>
               </Item>
-            ))}
+            ))
+          }
         </List>
       </FeaturesContainer>
     </FeaturesSection>
-  )
+  );
 }

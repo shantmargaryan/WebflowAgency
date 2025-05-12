@@ -22,11 +22,22 @@ export default function FeaturesItems() {
   useEffect(() => {
     const fetchFeatures = async () => {
       try {
+        // Check if data is already cached in sessionStorage
+        const cachedData = sessionStorage.getItem("featuresItems");
+        if (cachedData) {
+          setFeaturesItems(JSON.parse(cachedData));
+          return;
+        }
+
+        // Fetch data from the API if not cached
         const response = await fetch("/api/featuresItems");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const { featuresItems } = await response.json();
+
+        // Cache the data in sessionStorage
+        sessionStorage.setItem("featuresItems", JSON.stringify(featuresItems));
         setFeaturesItems(featuresItems);
       } catch (error) {
         console.error("Error fetching features:", error);
