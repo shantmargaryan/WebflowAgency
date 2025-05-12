@@ -56,7 +56,4 @@ export const Img = styled(Image)`
   object-fit: cover;
   font-family: inherit;
   font-size: inherit;
-  transition: opacity 0.4s ease, filter 0.4s ease;
-  opacity: ${({ imageLoading }) => imageLoading ? '0' : '1'};
-  filter: blur(${({ imageLoading }) => imageLoading ? '10px' : '0px'});
 `
