@@ -42,8 +42,8 @@ export default function HomeProject() {
               width={700}
               height={700}
               style={{ width: '100%', height: 'auto' }}
-              onLoadingComplete={() => setImageLoading(false)} // Use onLoadingComplete for next/image
-              priority={false} // Keep priority false for non-critical images
+              onLoadingComplete={() => setImageLoading(false)}
+              priority={false}
             />
           </Item>
           <ImgBox>

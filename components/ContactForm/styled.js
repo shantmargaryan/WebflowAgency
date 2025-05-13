@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Section, Container, Paragraph, primaryLink, SecondaryTitle, Img } from "@/styled/mixStyle";
-import { ButtonReset, InputReset, TextareaReset } from "@/styled/reset";
+import { ButtonReset, InputReset, TextareaReset, LinkReset } from "@/styled/reset";
 
 
 export const ContactSection = styled.section`
@@ -125,3 +125,14 @@ export const Button = styled.button`
     background-color:rgba(231, 178, 44, 0.6);
   }
 `
+
+export const PhoneNumber = styled.a`
+  ${LinkReset}
+  margin: 0 auto;
+  transition: colot 0.4s ease 0s;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.yellow};
+    text-decoration: underline;
+  }
+  `
