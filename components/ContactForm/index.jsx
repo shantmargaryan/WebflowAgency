@@ -55,6 +55,7 @@ export default function ContactForm() {
           <Form onSubmit={handleSubmit}>
             <Input type="text" name="name" placeholder="Name" required />
             <Input type="email" name="email" placeholder="Email" required />
+            <Input type="text" name="phone Number" placeholder="Phone Number" required />
             <Textarea name="message" placeholder="Message"></Textarea>
             <Button type="submit">
               {t("button")}

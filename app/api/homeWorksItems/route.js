@@ -9,8 +9,8 @@ export function GET() {
     },
     {
       "id": 2,
-      "title": "Wireframing",
-      "description": "WireframingDescription"
+      "title": "Teaching",
+      "description": "TeachingDescription"
     },
     {
       "id": 3,

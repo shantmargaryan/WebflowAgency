@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import HomeWork from "@/components/HomeWork";
 import HomeProject from "@/components/HomeProject";
+import Homecourses from "@/components/Homecourses";
 import HomeFeatures from "@/components/HomeFeatures";
 import HomeClients from "@/components/HomeClients";
 import ContactForm from "@/components/ContactForm";
@@ -19,6 +20,7 @@ export default function HomePage() {
       />
       <HomeWork />
       <HomeProject />
+      <Homecourses />
       <HomeFeatures />
       <HomeClients />
       <ContactForm />

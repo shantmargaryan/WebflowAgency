@@ -2,6 +2,7 @@
   "NavLinks": {
     "home": "Home",
     "about": "About",
+    "courses": "Courses",
     "features": "Features",
     "projects": "Projects",
     "contact": "Contact"
@@ -18,8 +19,8 @@
     "Items": {
       "Strategy": "Discussion",
       "StrategyDescription": "We carefully listen to your needs and develop a personalized strategy for your project.",
-      "Wireframing": "Process",
-      "WireframingDescription": "We create the website structure and design the user experience, keeping your business goals in mind.",
+      "Teaching": "Teaching",
+      "TeachingDescription": "We provide training and support to help you understand the web development process.",
       "Design": "Design",
       "DesignDescription": "We develop modern and engaging designs that reflect your brand identity.",
       "Development": "Development",
@@ -35,6 +36,47 @@
       "description": "We present our work to the client։",
       "link": "View project"
     }
+  },
+  "HomeCourses": {
+    "title": "Courses",
+    "description": "We offer a variety of courses to help you learn web development and design.",
+    "Items": {
+      "title": "Frontend Development",
+      "description": "Learn the fundamentals of HTML, CSS, and JavaScript to build modern websites.",
+      "link": "Learn more",
+      "secoundTitle": "Backend Development",
+      "secoundDescription": "Explore server-side programming with Node.js and databases to create dynamic web applications.",
+      "secoundLink": "Learn more",
+      "thirdTitle": "Full-Stack Development",
+      "thirdDescription": "Master both frontend and backend development to create full-stack web applications.",
+      "thirdLink": "Learn more",
+      "fourthTitle": "SMM",
+      "fourthDescription": "Learn how to promote your website through social media platforms.",
+      "fourthLink": "Learn more"
+    }
+  },
+  "coursesHero": {
+    "title": "Advance your skills with our courses",
+    "description": "Join our expert-led courses to master web development, design, and digital marketing. Whether you're a beginner or looking to upskill, we have the right course for you.",
+    "link": "Browse all courses"
+  },
+  "CoursesItems": {
+    "befourTitle": "Web Design",
+    "title": "Explore Our Course for Web Design",
+    "description": "Our web design course covers the latest trends and techniques in creating visually appealing and user-friendly websites.",
+    "link": "Learn more",
+    "secoundBefourTitle": "Frontend Development",
+    "secoundTitle": "Explore Our Course for Web Development",
+    "secoundDescription": "Our web development course covers the latest technologies and best practices for building dynamic and responsive websites.",
+    "thirdBefourTitle": "Backend Development",
+    "thirdTitle": "Explore Our Course for Backend Development",
+    "thirdDescription": "Our backend development course covers the server-side programming and databases required for building robust and scalable web applications.",
+    "fourthBefourTitle": "SMM",
+    "fourthTitle": "Explore Our Course for SMM",
+    "fourthDescription": "Our SMM course covers the latest techniques and tools for promoting your website on social media platforms.",
+    "fifthBefourTitle": "Full-Stack Development",
+    "fifthTitle": "Explore Our Course for Full-Stack Development",
+    "fifthDescription": "Our full-stack development course covers the end-to-end development process, including both frontend and backend development."
   },
   "HomeFeatures": {
     "beforeTitle": "Features",

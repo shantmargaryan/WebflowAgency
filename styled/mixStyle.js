@@ -34,7 +34,8 @@ export const SecondaryTitle = css`
   margin: 0;
   margin-block-end: 1rem;
   font-size: clamp(1.5rem, 5vw, 2rem);
-  line-height: 120%;
+  line-height: 130%;
+  letter-spacing: 0.03em;
 `;
 
 export const Paragraph = css`

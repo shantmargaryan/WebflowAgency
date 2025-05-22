@@ -10,7 +10,7 @@ export const LinkReset = css`
 `;
 
 export const NextLink = styled(Link)`
-  display: block;
+  display: inline-block;
   color: inherit;
   font-family: inherit;
   font-size: inherit;
