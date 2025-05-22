@@ -17,7 +17,7 @@ import {
 } from './styled';
 
 
-const Homecourses = () => {
+const HomeCourses = () => {
   const t = useTranslations('HomeCourses');
   const t2 = useTranslations('HomeCourses.Items');
   const [courses, setCourses] = useState([]);
@@ -65,4 +65,4 @@ const Homecourses = () => {
   );
 }
 
-export default Homecourses;
+export default HomeCourses;
