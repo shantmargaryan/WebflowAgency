@@ -2,6 +2,9 @@
 import {
   CoursesSection,
   CoursesContainer,
+  CoursesContent,
+  CoursesCurrentTitle,
+  CoursesCurrentDescription,
   CoursesImg,
   CoursesBefourTitle,
   CoursesTitle,
@@ -35,6 +38,10 @@ export default function Courses() {
   return (
     <CoursesSection>
       <CoursesContainer>
+        <CoursesContent>
+          <CoursesCurrentTitle>{t2("currentTitle")}</CoursesCurrentTitle>
+          <CoursesCurrentDescription>{t2("currentDescription")}</CoursesCurrentDescription>
+        </CoursesContent>
         <CoursesList>
           {courses.map((course) => (
             <CoursesItem key={course.id}>

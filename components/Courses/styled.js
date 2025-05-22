@@ -12,6 +12,23 @@ export const CoursesContainer = styled.div`
   ${Container}
 `;
 
+export const CoursesContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-end: 5rem;
+  text-align: center;
+`
+
+export const CoursesCurrentTitle = styled.h2`
+  ${SecondaryTitle}
+`
+
+export const CoursesCurrentDescription = styled.p`
+  ${Paragraph}
+  max-width: 600px;
+`
+
 export const CoursesImg = styled(Img)`
 height: 350px;
 margin-block-end: 20px;

@@ -61,6 +61,8 @@
     "link": "Browse all courses"
   },
   "CoursesItems": {
+    "currentTitle": "Courses",
+    "currentDescription": "We offer a wide range of courses designed to help you master web development and design from scratch to completion",
     "befourTitle": "Web Design",
     "title": "Explore Our Course for Web Design",
     "description": "Our web design course covers the latest trends and techniques in creating visually appealing and user-friendly websites.",
