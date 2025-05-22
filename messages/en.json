@@ -10,7 +10,7 @@
   "HomeHero": {
     "title": "We create great websites for everyone",
     "description": "Our team specializes in creating modern, fast, and optimized websites. We help businesses grow their online presence with cutting-edge web solutions.",
-    "link": "View our work"
+    "link": "View our works"
   },
   "HomeWork": {
     "title": "How we work",
@@ -34,7 +34,7 @@
       "title": "Best Web-Flow websites",
       "secoundTitle": "Our best works",
       "description": "We present our work to the client։",
-      "link": "View project"
+      "link": "View projects"
     }
   },
   "HomeCourses": {
@@ -58,7 +58,7 @@
   "coursesHero": {
     "title": "Advance your skills with our courses",
     "description": "Join our expert-led courses to master web development, design, and digital marketing. Whether you're a beginner or looking to upskill, we have the right course for you.",
-    "link": "Browse all courses"
+    "link": "View projects"
   },
   "CoursesItems": {
     "currentTitle": "Courses",
@@ -189,7 +189,7 @@
   "FeaturesHero": {
     "title": "All the features you need",
     "description": "We provide comprehensive web development solutions with all the essential features for your business success.",
-    "link": "View our work"
+    "link": "View our works"
   },
   "FeaturesItems": {
     "beforeTitle": "Customer review",
