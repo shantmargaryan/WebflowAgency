@@ -9,7 +9,7 @@ export async function GET(request) {
       befourTitle: "befourTitle",
       title: "title",
       description: "description",
-      img: "/imgs/CourseImg5.jpg",
+      img: "/imgs/courseImg5.jpg",
       link: "link",
     },
     {
@@ -17,7 +17,7 @@ export async function GET(request) {
       befourTitle: "secoundBefourTitle",
       title: "secoundTitle",
       description: "secoundDescription",
-      img: "/imgs/CourseImg4.jpg",
+      img: "/imgs/courseImg4.jpg",
       link: "link",
     },
     {
@@ -25,7 +25,7 @@ export async function GET(request) {
       befourTitle: "thirdBefourTitle",
       title: "thirdTitle",
       description: "thirdDescription",
-      img: "/imgs/CourseImg2.jpg",
+      img: "/imgs/courseImg2.jpg",
       link: "link",
     },
     {
@@ -33,7 +33,7 @@ export async function GET(request) {
       befourTitle: "fourthBefourTitle",
       title: "fourthTitle",
       description: "fourthDescription",
-      img: "/imgs/CourseImg3.jpg",
+      img: "/imgs/courseImg3.jpg",
       link: "link",
     },
     {
@@ -41,7 +41,7 @@ export async function GET(request) {
       befourTitle: "fifthBefourTitle",
       title: "fifthTitle",
       description: "fifthDescription",
-      img: "/imgs/CourseImg1.jpg",
+      img: "/imgs/courseImg1.jpg",
       link: "link",
     },
   ];
