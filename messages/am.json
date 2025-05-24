@@ -80,6 +80,16 @@
     "fifthTitle": "Բացահայտեք մեր Full-Stack ծրագրավորման դասընթացը",
     "fifthDescription": "Մեր Full-Stack ծրագրավորման դասընթացը ներառում է ամբողջական զարգացման գործընթացը՝ ինչպես frontend, այնպես էլ backend ծրագրավորում։"
   },
+  "CoursesForm": {
+    "title": "Միացեք մեր դասընթացներին",
+    "description": "Լրացրեք ձեր տվյալները, և մենք կկապվենք ձեզ հետ անհրաժեշտ բոլոր տեղեկություններով։",
+    "button": "Ուղարկել",
+    "namePlaceholder": "Անուն",
+    "emailPlaceholder": "Էլ. հասցե",
+    "phonePlaceholder": "Հեռախոսահամար",
+    "messagePlaceholder": "Հաղորդագրություն",
+    "selectDeveloper": "Ընտրեք դասընթացը"
+  },
   "HomeFeatures": {
     "beforeTitle": "Հատկություններ",
     "title": "Նախագծում, որը լուծում է խնդիրները",
@@ -113,7 +123,11 @@
     "secoundTitle": "Ուղարկել հարցում",
     "secoundDescription": "Լրացրեք ձեր տվյալները, և մենք կկապվենք ձեզ հետ ամենաանհրաժեշտ մանրամասներով։",
     "button": "Ուղարկել",
-    "link": "Կապվեք մեզ հետ"
+    "link": "Կապվեք մեզ հետ",
+    "namePlaceholder": "Անուն",
+    "emailPlaceholder": "Էլ. հասցե",
+    "phonePlaceholder": "Հեռախոսահամար",
+    "messagePlaceholder": "Հաղորդագրություն"
   },
   "HomeBlogItems": {
     "currentTitle": "Մեր բլոգը",

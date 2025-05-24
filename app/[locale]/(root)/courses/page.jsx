@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Courses from "@/components/Courses";
+import CoursesForm from "@/components/CoursesForm";
 import { useTranslations } from "next-intl";
 
 export default function CoursesPage() {
@@ -13,6 +14,7 @@ export default function CoursesPage() {
         link={t("link")}
       />
       <Courses />
+      <CoursesForm />
     </>
   );
 }

@@ -80,6 +80,16 @@
     "fifthTitle": "Explore Our Course for Full-Stack Development",
     "fifthDescription": "Our full-stack development course covers the end-to-end development process, including both frontend and backend development."
   },
+  "CoursesForm": {
+    "title": "Join our courses",
+    "description": "Fill in your details, and we'll get back to you with all the necessary information.",
+    "button": "Send",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "phonePlaceholder": "Phone number",
+    "messagePlaceholder": "Message",
+    "selectDeveloper": "Select course"
+  },
   "HomeFeatures": {
     "beforeTitle": "Features",
     "title": "Design that solves problems",
@@ -113,7 +123,11 @@
     "secoundTitle": "Send inquiry",
     "secoundDescription": "Fill in your details, and we'll get back to you with all the necessary information.",
     "button": "Send",
-    "link": "Get in touch with us"
+    "link": "Get in touch with us",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "phonePlaceholder": "Phone number",
+    "messagePlaceholder": "Message"
   },
   "HomeBlogItems": {
     "currentTitle": "Our blog",
