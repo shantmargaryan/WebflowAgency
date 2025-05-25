@@ -161,7 +161,9 @@
       "design": "Design",
       "designDescription": "We create visually appealing and user-friendly designs that enhance your brand identity.",
       "development": "Development",
-      "developmentDescription": "We build robust and scalable websites using the latest technologies and best practices."
+      "developmentDescription": "We build robust and scalable websites using the latest technologies and best practices.",
+      "Teaching": "Teaching",
+      "TeachingDescription": "We provide training and support to help you understand the web development process."
     }
   },
   "AboutMission": {

@@ -29,7 +29,7 @@ export default function AboutHero() {
             {t("description")}
           </AboutParagraph>
         </Content>
-        <AboutImg src="/imgs/AboutHeroImg.png"
+        <AboutImg src="/imgs/OfficeImg2.jpg"
           alt="aboutHero"
           width={700}
           height={700}

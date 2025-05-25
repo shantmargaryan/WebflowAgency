@@ -41,4 +41,5 @@ export const Description = styled.p`
   `
 
 export const WhoWeAreImg = styled(Img)`
+  aspect-ratio: 3;
   `

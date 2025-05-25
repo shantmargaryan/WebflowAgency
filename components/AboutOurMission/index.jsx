@@ -1,7 +1,6 @@
 "use client"
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import Image from "next/image";
 import {
   OurMissionSection,
   OurMissionContainer,
@@ -9,7 +8,8 @@ import {
   Content,
   BeforeTitle,
   Title,
-  OurMissionDecoration
+  OurMissionDecoration,
+  OurMissionImg
 } from "./styled";
 
 export default function AboutOurMission() {
@@ -30,7 +30,7 @@ export default function AboutOurMission() {
               {t("description")}
             </OurMissionDecoration>
           </Content>
-          <Image src="/imgs/OurMissionImg .png" alt="subdivision"
+          <OurMissionImg src="/imgs/OfficeImg6.jpg" alt="subdivision"
             width={700}
             height={700}
             style={{ width: '100%', height: 'auto' }}
@@ -40,7 +40,7 @@ export default function AboutOurMission() {
           />
         </Wrapper>
         <Wrapper>
-          <Image src="/imgs/OurVisionImg.png" alt="groupWorks"
+          <OurMissionImg src="/imgs/OfficeImg4.jpg" alt="groupWorks"
             width={700}
             height={700}
             style={{ width: '100%', height: 'auto' }}

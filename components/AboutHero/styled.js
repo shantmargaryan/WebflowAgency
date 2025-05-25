@@ -39,4 +39,5 @@ export const AboutParagraph = styled.p`
   `
 
 export const AboutImg = styled(Img)`
+  aspect-ratio: 3/2;
   `

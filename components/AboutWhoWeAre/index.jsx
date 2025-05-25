@@ -39,7 +39,7 @@ export default function AboutWhoWeAre() {
             </Description>
           </Content>
         </Wrapper>
-        <WhoWeAreImg src="/imgs/WhoWeAreImg.png"
+        <WhoWeAreImg src="/imgs/OfficeImg1.jpg"
           alt="whoWeAre"
           width={700}
           height={700}

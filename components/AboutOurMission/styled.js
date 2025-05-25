@@ -44,6 +44,6 @@ export const OurMissionDecoration = styled.p`
   `
 
 export const OurMissionImg = styled(Img)`
-
+  aspect-ratio: 3/2;
   `
 

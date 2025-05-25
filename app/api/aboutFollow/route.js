@@ -21,6 +21,11 @@ export function GET() {
       "id": 4,
       "title": "development",
       "description": "developmentDescription"
+    },
+    {
+      "id": 5,
+      "title": "Teaching",
+      "description": "TeachingDescription"
     }
   ]
   return NextResponse.json({ aboutFollow })
