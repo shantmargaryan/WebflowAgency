@@ -1,15 +1,12 @@
 "use client";
 import SingleCourseHero from "@/components/SingleCourseHero";
 import SingleInfo from "@/components/SingleInfo";
-import { useTranslations } from "next-intl";
 import { useEffect, useState, Suspense } from "react";
-import { use } from "react";
 import { useParams } from "next/navigation";
 
 
 
 export default function SingleCoursePage() {
-  const t = useTranslations("CoursesItems");
   const [projects, setProjects] = useState([]);
   const params = useParams();
   const { id } = params;

@@ -20,6 +20,40 @@ export const CoursesContent = styled.div`
   text-align: center;
 `
 
+export const ImgContent = styled.div`
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-block-end: 1rem;
+`
+
+export const TeacherBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+`
+
+export const TeacherName = styled.span`
+  font-weight: 600;
+  letter-spacing: 0.05em;
+`
+
+export const TeacherPosition = styled.span`
+  font-weight: 500;
+  font-size: 0.875rem;
+  background-color: ${({ theme }) => theme.colors.yellow};
+  padding: 0.2rem 0.5rem;
+  border-radius: 2.5625rem;
+  color: ${({ theme }) => theme.colors.darkBlue};
+`
+
+export const TeacherImg = styled(Img)`
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+`;
+
 export const CoursesCurrentTitle = styled.h2`
   ${SecondaryTitle}
 `

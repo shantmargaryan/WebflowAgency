@@ -2,6 +2,11 @@
 import {
   CoursesSection,
   CoursesContainer,
+  ImgContent,
+  TeacherBox,
+  TeacherName,
+  TeacherPosition,
+  TeacherImg,
   CoursesContent,
   CoursesCurrentTitle,
   CoursesCurrentDescription,
@@ -16,7 +21,6 @@ import {
 import { useTranslations } from "next-intl";
 import { Link } from '@/i18n/navigation';
 import { useState, useEffect } from "react";
-
 
 export default function Courses() {
   const t2 = useTranslations("CoursesItems");
@@ -46,6 +50,22 @@ export default function Courses() {
         <CoursesList>
           {courses.map((course) => (
             <CoursesItem key={course.id}>
+              <ImgContent>
+                <TeacherImg
+                  src={course.teacherImg}
+                  alt={course.teacherName}
+                  width={50}
+                  height={50}
+                />
+                <TeacherBox>
+                  <TeacherName>
+                    {t2(course.teacherName) || " "}
+                  </TeacherName>
+                  <TeacherPosition>
+                    {t2(course.teacherPosition) || " "}
+                  </TeacherPosition>
+                </TeacherBox>
+              </ImgContent>
               <Link href={`/courses/${course?.id}`}>
                 <CoursesImg
                   src={course.img}
