@@ -3,8 +3,15 @@ import { TransitionLink } from "@/Utils/TransitionLink";
 import { links } from "./links";
 
 export default function Navigation({ isOpen, headerHeight, linkActive, setIsOpen, t }) {
+  const handleTouchEnd = () => setIsOpen(false);
+
   return (
-    <Nav isopen={isOpen ? "true" : "false"} headerheight={headerHeight} role="navigation">
+    <Nav
+      isopen={isOpen ? "true" : "false"}
+      headerheight={headerHeight}
+      role="navigation"
+      onTouchEnd={handleTouchEnd}
+    >
       <NavList>
         {links.map(({ href, label }) => (
           <li key={href}>
