@@ -11,6 +11,10 @@ export const SingleProjectHeroSection = styled.section`
 
 export const SingleProjectHeroContainer = styled.div`
   ${Container}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   `
 
   export const SingleProjectsHeroBeforeTitle = styled.span`

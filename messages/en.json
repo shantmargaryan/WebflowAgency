@@ -66,19 +66,51 @@
     "befourTitle": "Web Design",
     "title": "Explore Our Course for Web Design",
     "description": "Our web design course covers the latest trends and techniques in creating visually appealing and user-friendly websites.",
+    "largeDescription": "Our courses are designed to provide you with the knowledge and skills you need to succeed in the ever-changing landscape of web development, design, and digital marketing. With a focus on practical, hands-on learning, our courses cover topics such as web development frameworks, design principles, and digital marketing strategies. Whether you're looking to upskill or reskill, our courses are the perfect way to take your career to the next level.",
     "link": "Learn more",
     "secoundBefourTitle": "Frontend Development",
     "secoundTitle": "Explore Our Course for Web Development",
     "secoundDescription": "Our web development course covers the latest technologies and best practices for building dynamic and responsive websites.",
+    "secoundLargeDescription": "Our courses are taught by industry experts with years of experience in their fields. They'll share their knowledge and insights with you, providing you with a comprehensive understanding of the latest trends and technologies. With our courses, you'll gain the skills and confidence you need to succeed in your career, whether you're just starting out or looking to take your skills to the next level. Plus, with our flexible online learning platform, you can learn at your own pace and on your own schedule.",
     "thirdBefourTitle": "Backend Development",
     "thirdTitle": "Explore Our Course for Backend Development",
     "thirdDescription": "Our backend development course covers the server-side programming and databases required for building robust and scalable web applications.",
+    "thirdLargeDescription": "By taking our courses, you'll not only gain new skills and knowledge, but also become part of a community of like-minded professionals who are passionate about web development, design, and digital marketing. Our courses include interactive discussions, peer feedback, and support from our instructors, so you can connect with others who share your interests and goals. Plus, with our certificate of completion, you'll have a tangible way to showcase your skills to employers and clients.",
     "fourthBefourTitle": "SMM",
     "fourthTitle": "Explore Our Course for SMM",
     "fourthDescription": "Our SMM course covers the latest techniques and tools for promoting your website on social media platforms.",
+    "fourthLargeDescription": "We're committed to helping you achieve your career goals, and we're confident that our courses will provide you with the skills and knowledge you need to succeed. That's why we offer a 30-day money-back guarantee. If you're not satisfied with the course, we'll refund your tuition in full. Plus, with our lifetime access to course materials, you can review and refresh your skills at any time. Invest in your future with our courses, and start building the career you deserve.",
     "fifthBefourTitle": "Full-Stack Development",
     "fifthTitle": "Explore Our Course for Full-Stack Development",
-    "fifthDescription": "Our full-stack development course covers the end-to-end development process, including both frontend and backend development."
+    "fifthDescription": "Our full-stack development course covers the end-to-end development process, including both frontend and backend development.",
+    "fifthLargeDescription": "Don't just take our word for it - our courses have helped thousands of students achieve their career goals and improve their skills. Here's what some of our students have to say: 'I was able to land my dream job after taking this course!' 'The instructor was knowledgeable and provided great feedback.' 'I loved the interactive discussions and peer feedback.' Read more testimonials from our satisfied students and see how our courses can help you achieve your goals.",
+    "Items": {
+      "1": {
+        "itemOne": "Learn the fundamentals of color theory, typography, and layout.",
+        "itemTwo": "Work on real-world projects to build your portfolio.",
+        "itemThree": "Get feedback from experienced designers and instructors."
+      },
+      "2": {
+        "itemOne": "Master HTML, CSS, and JavaScript from the ground up.",
+        "itemTwo": "Build interactive and responsive web pages.",
+        "itemThree": "Understand version control and modern development workflows."
+      },
+      "3": {
+        "itemOne": "Learn the basics of React and state management.",
+        "itemTwo": "Create dynamic and reusable components.",
+        "itemThree": "Optimize performance and accessibility."
+      },
+      "4": {
+        "itemOne": "Understand the fundamentals of social media marketing and its role in growing a business.",
+        "itemTwo": "Develop strategies for creating engaging content and building an online community.",
+        "itemThree": "Analyze social media metrics to optimize campaigns and measure success."
+      },
+      "5": {
+        "itemOne": "Combine frontend and backend skills to build complete web applications.",
+        "itemTwo": "Deploy and maintain your projects using modern tools.",
+        "itemThree": "Collaborate on group projects and build a professional portfolio."
+      }
+    }
   },
   "CoursesForm": {
     "title": "Join our courses",
@@ -89,6 +121,11 @@
     "phonePlaceholder": "Phone number",
     "messagePlaceholder": "Message",
     "selectDeveloper": "Select course"
+  },
+  "CoursesSingleHero": {
+    "beforeTitle": "Course Details",
+    "title": "Master Web Development Skills",
+    "description": "Dive deep into comprehensive course content designed to transform you into a proficient web developer. Learn from industry experts and gain practical experience through hands-on projects."
   },
   "HomeFeatures": {
     "beforeTitle": "Features",

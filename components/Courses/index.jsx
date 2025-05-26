@@ -14,6 +14,7 @@ import {
   CoursesLink
 } from "./styled";
 import { useTranslations } from "next-intl";
+import { Link } from '@/i18n/navigation';
 import { useState, useEffect } from "react";
 
 
@@ -45,18 +46,20 @@ export default function Courses() {
         <CoursesList>
           {courses.map((course) => (
             <CoursesItem key={course.id}>
-              <CoursesImg
-                src={course.img}
-                alt="course image"
-                width={500}
-                height={300}
-              />
+              <Link href={`/courses/${course?.id}`}>
+                <CoursesImg
+                  src={course.img}
+                  alt="course image"
+                  width={500}
+                  height={300}
+                />
+              </Link>
               <CoursesBefourTitle>
                 {t2(course.befourTitle)}
               </CoursesBefourTitle>
               <CoursesTitle>{t2(course.title)}</CoursesTitle>
               <CoursesDescription>{t2(course.description)}</CoursesDescription>
-              <CoursesLink href={course.link}>
+              <CoursesLink href={`/courses/${course?.id}`}>
                 {t2(course.link)}
               </CoursesLink>
             </CoursesItem>
