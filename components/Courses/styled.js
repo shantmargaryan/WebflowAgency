@@ -6,6 +6,13 @@ import { ListReset, NextLink } from "@/styled/reset";
 
 export const CoursesSection = styled.section`
   ${Section}
+  background-color: ${({ theme }) => theme.colors.accent};
+  padding-block: 3rem;
+  transition: background-color  0.4s ease 0s;
+
+    [data-theme="dark"] & {
+    background-color: ${({ theme }) => theme.colors.darkBlue};
+  }
 `;
 
 export const CoursesContainer = styled.div`

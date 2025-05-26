@@ -19,7 +19,8 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10%;
+  height: 100%;
+  padding: 8%;
 
   &::before {
     content: "";

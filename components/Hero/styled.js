@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Section, Container, Title, Paragraph, primaryLink, Img } from "@/styled/mixStyle";
 
 export const HeroSection = styled.section`
-  ${Section}
   padding-block-start: 10rem;
   padding-block-end: 5rem;
   background-color: ${({ theme }) => theme.colors.tintBlue};

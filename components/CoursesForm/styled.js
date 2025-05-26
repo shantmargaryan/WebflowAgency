@@ -54,7 +54,7 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 3rem;
+  padding: 6%;
   background-color: #1c1e53;
 `
 
