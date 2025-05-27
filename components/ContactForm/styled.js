@@ -47,7 +47,7 @@ export const ContactParagraph = styled.p`
 `
 
 export const Wrapper = styled.div`
-  padding: 3rem;
+  padding: 7%;
   background-color: ${({ theme }) => theme.colors.tintBlue};
 `
 

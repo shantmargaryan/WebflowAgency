@@ -2,15 +2,13 @@
 import { useTranslations } from "next-intl";
 import { useState, useEffect } from "react";
 import Logo from "../Logo";
-import { Link } from "@/i18n/navigation";
 import {
-  FooterWrapper, FooterContainer, FooterParagraph, Title, SocialList, Item, Wrapper, Contact,
+  FooterWrapper, FooterContainer, FooterParagraph, Title, Wrapper, Contact,
   ContactTitle,
   ContactsLinks,
   ScrollToTop
 } from "./styled";
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import Socials from "@/components/Socials";
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 export default function Footer() {
@@ -57,18 +55,7 @@ export default function Footer() {
             <FooterParagraph>
               {t('largeDescription')}
             </FooterParagraph>
-            <SocialList>
-              <Item>
-                <Link href="https://www.facebook.com/" target="_blank">
-                  <FacebookOutlinedIcon />
-                </Link>
-              </Item>
-              <Item>
-                <Link href="https://www.instagram.com/">
-                  <InstagramIcon />
-                </Link>
-              </Item>
-            </SocialList>
+            <Socials />
           </div>
         </Wrapper>
         <Contact>

@@ -31,21 +31,7 @@ export const FooterParagraph = styled.p`
   color: ${({ theme }) => theme.colors.white};
   `
 
-export const SocialList = styled.ul`
-  ${ListReset}
-  display: flex;
-  gap: .5rem;
-  margin-block-start: 1rem;
-  `
 
-export const Item = styled.li`
-
-& svg {
-  width: 1.7rem;
-  height: 1.7rem;
-  fill: ${({ theme }) => theme.colors.white};
-}
-`
 
 export const Contact = styled.div`
   display: inline-flex;
