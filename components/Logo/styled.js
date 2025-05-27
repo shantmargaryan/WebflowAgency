@@ -4,6 +4,8 @@ import { NextLink } from "@/styled/reset";
 
 export const LogoLink = styled(NextLink)`
   ${NextLink}
+  position: relative;
+  z-index: 11;
 `;
 
 export const LogoImg = styled(Img)`
