@@ -8,8 +8,15 @@ export default function MultiLangButton() {
   const params = useParams();
 
   function onChangeLocale(nextLocale) {
-    router.replace({ pathname, params }, { locale: nextLocale });
+    router.replace({ pathname, params }, {
+      locale: nextLocale,
+      scroll: false,
+      shallow: true,
+      forceOptimisticNavigation: true,
+      pushState: true
+    });
   }
+
 
   return (
     <MultiLangBox>
