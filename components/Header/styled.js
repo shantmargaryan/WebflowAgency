@@ -32,7 +32,7 @@ export const Nav = styled.nav`
   flex-direction: column;
   gap: 3rem;
   width: 100%;
-  height: 100vh;
+  height: 70%;
   background-color: ${({ theme }) => theme.colors.tintBlue};
   transition: top ease 0.6s, opacity ease 0.6s;
 
