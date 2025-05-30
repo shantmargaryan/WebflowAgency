@@ -1,11 +1,14 @@
 "use client";
-import ProjectsHero from "@/components/ProjectsHero";
+import ProjectsHero from "@/components/SecoundHero";
 import ProjectsItems from "@/components/ProjectsItems";
 import { useEffect, useState, Suspense } from "react";
+import { useTranslations } from "next-intl";
+
 
 
 export default function ProjectsPage() {
   const [projects, setProjects] = useState([]);
+  const t = useTranslations("ProjectsHero");
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -26,7 +29,11 @@ export default function ProjectsPage() {
   return (
     <>
       <Suspense fallback={<div>Loading...</div>}>
-        <ProjectsHero />
+        <ProjectsHero
+          beforeTitle={t("beforeTitle")}
+          title={t("title")}
+          description={t("description")}
+        />
         <ProjectsItems posts={projects} />
       </Suspense>
     </>

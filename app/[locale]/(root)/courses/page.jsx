@@ -1,8 +1,10 @@
+"use client";
 import Hero from "@/components/Hero";
 import Courses from "@/components/Courses";
 import CoursesForm from "@/components/CoursesForm";
 import { useTranslations } from "next-intl";
 import { Suspense } from "react";
+
 
 export default function CoursesPage() {
   const t = useTranslations("coursesHero");

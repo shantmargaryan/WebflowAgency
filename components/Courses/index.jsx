@@ -51,12 +51,14 @@ export default function Courses() {
           {courses.map((course) => (
             <CoursesItem key={course.id}>
               <ImgContent>
-                <TeacherImg
-                  src={course.teacherImg}
-                  alt={course.teacherName}
-                  width={50}
-                  height={50}
-                />
+                {course.teacherImg &&
+                  <TeacherImg
+                    src={course.teacherImg}
+                    alt={course.teacherName}
+                    width={50}
+                    height={50}
+                  />
+                }
                 <TeacherBox>
                   <TeacherName>
                     {t2(course.teacherName) || " "}

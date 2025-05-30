@@ -1,30 +1,29 @@
 import { useTranslations } from "next-intl";
 import {
-  SingleProjectHeroSection,
-  SingleProjectHeroContainer,
-  SingleProjectsHeroBeforeTitle,
-  SingleProjectHeroTitle,
-  SingleProjectHeroParagraph
+  HeroSection,
+  HeroContainer,
+  HeroBeforeTitle,
+  HeroTitle,
+  HeroParagraph
 } from "./styled";
 
 
-export default function SingleProjectHero() {
-  const t = useTranslations("SingleProjectHero");
+export default function SingleProjectHero({beforeTitle, title, description}) {
 
 
   return (
-    <SingleProjectHeroSection>
-      <SingleProjectHeroContainer>
-        <SingleProjectsHeroBeforeTitle>
-          {t("beforeTitle")}
-        </SingleProjectsHeroBeforeTitle>
-        <SingleProjectHeroTitle>
-          {t("title")}
-        </SingleProjectHeroTitle>
-        <SingleProjectHeroParagraph>
-          {t("description")}
-        </SingleProjectHeroParagraph>
-      </SingleProjectHeroContainer>
-    </SingleProjectHeroSection>
+    <HeroSection>
+      <HeroContainer>
+        <HeroBeforeTitle>
+          {beforeTitle}
+        </HeroBeforeTitle>
+        <HeroTitle>
+          {title}
+        </HeroTitle>
+        <HeroParagraph>
+          {description}
+        </HeroParagraph>
+      </HeroContainer>
+    </HeroSection>
   );
 };

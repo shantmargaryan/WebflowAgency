@@ -1,11 +1,14 @@
 "use client";
-import SingleProjectHero from "@/components/SingleProjectHero";
+import SingleProjectHero from "@/components/SecoundHero";
 import ProjectInfo from "@/components/ProjectInfo";
 import AboutProject from "@/components/AboutProject";
 import { useEffect, useState, Suspense } from "react";
 import { use } from "react";
+import { useTranslations } from "next-intl";
+
 
 export default function SinglePage({ params }) {
+  const t = useTranslations("SingleProjectHero");
   const [projects, setProjects] = useState([]);
   const unwrappedParams = use(params);
   const { id } = unwrappedParams;
@@ -31,7 +34,11 @@ export default function SinglePage({ params }) {
   return (
     <>
       <Suspense fallback={<div>Loading...</div>}>
-        <SingleProjectHero />
+        <SingleProjectHero
+          beforeTitle={t("beforeTitle")}
+          title={t("title")}
+          description={t("description")}
+        />
         <ProjectInfo
           id={id}
           img={project?.path}

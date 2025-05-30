@@ -1,7 +1,6 @@
 import { Nav, NavList } from "./styled";
 import { TransitionLink } from "@/Utils/TransitionLink";
 import { links } from "./links";
-import { useState } from 'react';
 import Overlay from "@/components/Overlay";
 
 export default function Navigation({ isOpen, headerHeight, linkActive, setIsOpen, t }) {

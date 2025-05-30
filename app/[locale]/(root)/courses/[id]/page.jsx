@@ -1,8 +1,9 @@
 "use client";
-import SingleCourseHero from "@/components/SingleCourseHero";
+import SingleCourseHero from "@/components/SecoundHero";
 import SingleInfo from "@/components/SingleInfo";
 import { useEffect, useState, Suspense } from "react";
 import { useParams } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 
 
@@ -10,6 +11,7 @@ export default function SingleCoursePage() {
   const [projects, setProjects] = useState([]);
   const params = useParams();
   const { id } = params;
+  const t = useTranslations("CoursesSingleHero");
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -29,9 +31,14 @@ export default function SingleCoursePage() {
 
   const project = projects.find((post) => +post.id === +id);
 
+
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <SingleCourseHero />
+      <SingleCourseHero
+        beforeTitle={t("beforeTitle")}
+        title={t("title")}
+        description={t("description")}
+      />
       <SingleInfo
         id={id}
         title={project?.title}

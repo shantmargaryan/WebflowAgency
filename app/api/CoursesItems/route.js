@@ -37,7 +37,7 @@ export async function GET() {
       description: "thirdDescription",
       largeDescription: "thirdLargeDescription",
       img: "/imgs/courseImg2.jpg",
-      teacherImg: "/imgs/GarenHarutyunyan.jpg",
+      teacherImg: "",
       link: "link",
     },
     {
@@ -49,7 +49,7 @@ export async function GET() {
       description: "fourthDescription",
       largeDescription: "fourthLargeDescription",
       img: "/imgs/courseImg3.jpg",
-      teacherImg: "/imgs/MarineTorosyan.jpg.jpg",
+      teacherImg: "",
       link: "link",
     },
     {
