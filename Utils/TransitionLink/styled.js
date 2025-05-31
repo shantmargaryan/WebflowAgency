@@ -12,7 +12,7 @@ export const TransitionLinks = styled(NextLink)`
   background-color: ${({ isactive }) => (isactive === "true" ? "#fcd980" : "transparent")};
   color: ${({ isactive }) => (isactive === "true" ? "#282938" : "#fff")};
   border-radius: 2.5625rem;
-  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s, background-color 0.4s ease 0s, color 0.4s ease 0s;
 
   &:nth-child(1){
   transform: translateY(${({ isVisible }) => isVisible ? '0' : '-50px'});
