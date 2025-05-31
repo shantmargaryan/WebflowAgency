@@ -7,12 +7,13 @@ import Logo from "../Logo";
 import UtilityButtons from "./UtilityButtons";
 import BurgerMenu from "./BurgerMenu";
 import Navigation from "./Navigation";
-import Overlay from "@/components/Overlay";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const headerRef = useRef(null);
   const t = useTranslations("NavLinks");
+
+
 
   useEffect(() => {
     if (typeof window !== "undefined" && typeof document !== "undefined") {
@@ -31,7 +32,8 @@ export default function Header() {
   const linkActive = getActiveLink();
 
   return (
-    <HeaderWrapper ref={headerRef}>
+    <HeaderWrapper
+      ref={headerRef}>
       <HeaderContainer>
         <Logo />
         <Navigation
