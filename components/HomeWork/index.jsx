@@ -1,14 +1,20 @@
 "use client";
-import { HomeWorkSection, HomeWorkContainer, HomeWorkTitle, HomeWorkParagraph, HomeWorkLink, List, CounterNumber, ListItem, SmallTitle, SmallParagraph } from "./styled";
+import { HomeWorkSection, HomeWorkContainer, HomeWorkContent, HomeWorkTitle, HomeWorkParagraph, HomeWorkLink, List, CounterNumber, ListItem, SmallTitle, SmallParagraph } from "./styled";
 import { MoveRight as ArrowRight } from "lucide-react";
 import { Icon } from "@/Utils/Icon";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import IntersectionComponent from "@/Utils/Intersection";
 
 export default function HomeWork() {
   const t = useTranslations("HomeWork");
   const t2 = useTranslations("HomeWork.Items");
   const [homeWorkItems, setHomeWorkItems] = useState([]);
+  const [isvisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -39,9 +45,10 @@ export default function HomeWork() {
   }, []);
 
   return (
-    <HomeWorkSection>
+    <HomeWorkSection isvisible={isvisible}>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <HomeWorkContainer>
-        <div>
+        <HomeWorkContent>
           <HomeWorkTitle>
             {t("title")}
           </HomeWorkTitle>
@@ -52,7 +59,8 @@ export default function HomeWork() {
             {t("link")}
             <ArrowRight />
           </HomeWorkLink>
-        </div>
+        </HomeWorkContent>
+
         <List>
           {homeWorkItems.map(({ id, title, description }) => (
             <ListItem key={id}>
@@ -64,6 +72,7 @@ export default function HomeWork() {
             </ListItem>
           ))}
         </List>
+
       </HomeWorkContainer>
     </HomeWorkSection>
   );

@@ -15,12 +15,18 @@ import {
   HomecoursesDescription,
   HomecoursesLink
 } from './styled';
+import IntersectionComponent from '@/Utils/Intersection';
 
 
 const HomeCourses = () => {
   const t = useTranslations('HomeCourses');
   const t2 = useTranslations('HomeCourses.Items');
   const [courses, setCourses] = useState([]);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
 
   useEffect(() => {
     const fetchCourses = async () => {
@@ -38,14 +44,15 @@ const HomeCourses = () => {
 
   return (
     <HomecoursesSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <HomecoursesContainer>
-        <HomecoursesContent>
+        <HomecoursesContent isVisible={isVisible}>
           <HomecoursesTitle>{t('title')}</HomecoursesTitle>
           <HomecoursesParagraph>{t('description')}</HomecoursesParagraph>
         </HomecoursesContent>
         <HomecoursesList>
           {courses.map((courses) => (
-            <HomecoursesItem key={courses.id}>
+            <HomecoursesItem key={courses.id} isVisible={isVisible}>
               <Image
                 src={svg[courses.id - 1].path}
                 alt={t2(courses.title)}

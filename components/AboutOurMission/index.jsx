@@ -11,15 +11,22 @@ import {
   OurMissionDecoration,
   OurMissionImg
 } from "./styled";
+import IntersectionComponent from "@/Utils/Intersection";
 
 export default function AboutOurMission() {
   const t = useTranslations("AboutMission");
-  const [imageLoading, setImageLoading] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
+
   return (
     <OurMissionSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <OurMissionContainer>
         <Wrapper>
-          <Content>
+          <Content isVisible={isVisible}>
             <BeforeTitle>
               {t("beforeTitle")}
             </BeforeTitle>
@@ -30,25 +37,27 @@ export default function AboutOurMission() {
               {t("description")}
             </OurMissionDecoration>
           </Content>
-          <OurMissionImg src="/imgs/OfficeImg6.jpg" alt="subdivision"
+          <OurMissionImg
+            isVisible={isVisible}
+            src="/imgs/OfficeImg6.jpg"
+            alt="subdivision"
             width={700}
             height={700}
             style={{ width: '100%', height: 'auto' }}
-            onLoad={() => setImageLoading(false)}
-            imageLoading={imageLoading}
             priority={false}
           />
         </Wrapper>
         <Wrapper>
-          <OurMissionImg src="/imgs/OfficeImg4.jpg" alt="groupWorks"
+          <OurMissionImg
+            isVisible={isVisible}
+            src="/imgs/OfficeImg4.jpg"
+            alt="groupWorks"
             width={700}
             height={700}
             style={{ width: '100%', height: 'auto' }}
-            onLoad={() => setImageLoading(false)}
-            imageLoading={imageLoading}
             priority={false}
           />
-          <Content>
+          <Content isVisible={isVisible}>
             <BeforeTitle>
               {t("secoundBeforeTitle")}
             </BeforeTitle>

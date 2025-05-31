@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import {
   HeroSection,
   HeroContainer,
@@ -6,13 +8,20 @@ import {
   HeroTitle,
   HeroParagraph,
 } from "./styled";
-
+import IntersectionComponent from "@/Utils/Intersection";
 
 
 
 export default function SecoundHero({ beforeTitle, title, description }) {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
+
   return (
-    <HeroSection>
+    <HeroSection isVisible={isVisible}>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <HeroContainer>
         <HeroBeforeTitle>{beforeTitle}</HeroBeforeTitle>
         <HeroContent>

@@ -8,12 +8,18 @@ import { ClientsSection, ClientsContainer, ClientsTitle, ClientsParagraph, Conte
 import { Imgs } from "./images";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import IntersectionComponent from "@/Utils/Intersection";
 
 export default function HomeClients() {
   const t = useTranslations("HomeClients");
   const t2 = useTranslations("HomeClients.Items");
   const [homeClients, setHomeClients] = useState([]);
   const [imageLoading, setImageLoading] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -41,7 +47,8 @@ export default function HomeClients() {
   }, []);
 
   return (
-    <ClientsSection>
+    <ClientsSection isVisible={isVisible}>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <ClientsContainer>
         <Content>
           <ClientsTitle>

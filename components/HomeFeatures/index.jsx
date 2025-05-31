@@ -3,12 +3,18 @@ import { useTranslations } from "next-intl";
 import { svgs } from "./svgs";
 import { FeaturesSection, FeaturesContainer, Content, BeforeTitle, FeaturesTitle, List, Item, Icon, ItemTitle, ItemParagraph } from "./styled";
 import { useEffect, useState } from "react";
+import IntersectionComponent from "@/Utils/Intersection";
 
 export default function HomeFeatures() {
   const t = useTranslations("HomeFeatures");
   const t2 = useTranslations("HomeFeatures.Items");
   const [homeFeatures, setHomeFeatures] = useState([]);
   const [imageLoading, setImageLoading] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
 
   useEffect(() => {
     const fetchFeatures = async () => {
@@ -40,8 +46,9 @@ export default function HomeFeatures() {
 
   return (
     <FeaturesSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <FeaturesContainer>
-        <Content>
+        <Content isVisible={isVisible}>
           <BeforeTitle>
             {t("beforeTitle")}
           </BeforeTitle>
@@ -52,7 +59,7 @@ export default function HomeFeatures() {
         <List>
           {
             homeFeatures.map(({ id, title, description }) => (
-              <Item key={id}>
+              <Item key={id} isVisible={isVisible}>
                 <Icon
                   src={svgs[id - 1].path}
                   alt="icons"

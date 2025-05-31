@@ -46,6 +46,7 @@ export const Paragraph = css`
 
 export const primaryLink = styled(Link)`
   display: inline-block;
+  color: inherit;
   text-decoration: none;
 `;
 

@@ -18,11 +18,10 @@ export const AboutContainer = styled.div`
   `
 
 export const Content = styled.div`
-  width: 100%;
 
-  @media (${({ theme }) => theme.media.laptop}) {
-    max-width: 30.25rem;
-  }
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const BeforeTitle = styled.span`
@@ -40,4 +39,8 @@ export const AboutParagraph = styled.p`
 
 export const AboutImg = styled(Img)`
   aspect-ratio: 3/2;
+
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `

@@ -10,6 +10,12 @@ export const HomeWorkSection = styled.section`
   padding-block: 10%;
   transition: background-color 0.4s ease 0s;
   background-color: ${({ theme }) => theme.colors.gray};
+  transform: translateY(${({ isvisible }) => isvisible ? '0' : '50px'});
+  opacity: ${({ isvisible }) => isvisible ? '1' : '0'};
+  pointer-events: ${({ isvisible }) => isvisible ? 'auto' : 'none'};
+  transition: transform 0.5s ease 0s,
+    opacity 0.5s ease 0s,
+    background-color 0.4s ease 0s;
 
   [data-theme="dark"] & {
     background-color: ${({ theme }) => theme.colors.darkBlue};
@@ -21,6 +27,10 @@ export const HomeWorkContainer = styled.div`
   display: grid;
   grid-template-columns: ${({ theme }) => theme.Response.gridCustom};
   gap: 1.5rem;
+  `
+
+export const HomeWorkContent = styled.div`
+  
   `
 
 export const HomeWorkTitle = styled.h2`

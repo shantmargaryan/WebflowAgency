@@ -1,29 +1,36 @@
 "use client"
 import { useTranslations } from "next-intl";
 import { MoveRight as ArrowRight } from "lucide-react";
-import { ProjectSection, ProjectContainer, Content, ProjectTitle, Link, ImgLink, ViewMore, List, Item, ImgBox, ItemContent, ItemTitle, ItemParagraph, ItemLink } from "./styled";
-import Image from "next/image"; // Import next/image
+import { ProjectSection, ProjectContainer, Content, ProjectTitle, ImgLink, ViewMore, List, Item, ImgBox, ItemContent, ItemTitle, ItemParagraph, ItemLink } from "./styled";
+import Image from "next/image";
 import { useState } from "react";
+import IntersectionComponent from "@/Utils/Intersection";
 
 export default function HomeProject() {
   const t = useTranslations("HomeProjects");
   const t2 = useTranslations("HomeProjects.Items");
   const [imageLoading, setImageLoading] = useState(true);
+  const [isVisible, setisVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setisVisible(true);
+  };
 
   return (
     <ProjectSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <ProjectContainer>
         <Content>
-          <ProjectTitle>
+          <ProjectTitle isVisible={isVisible}>
             {t("title")}
           </ProjectTitle>
-          <ViewMore href="/projects">
+          <ViewMore href="/projects" isVisible={isVisible}>
             {t("link")}
             <ArrowRight />
           </ViewMore>
         </Content>
         <List>
-          <Item>
+          <Item isVisible={isVisible}>
             <ItemContent>
               <ItemTitle>
                 {t2("title")}
@@ -47,7 +54,7 @@ export default function HomeProject() {
             />
           </Item>
           <ImgBox>
-            <Item>
+            <Item isVisible={isVisible}>
               <ItemContent>
                 <ItemTitle>
                   {t2("secoundTitle")}
@@ -67,7 +74,7 @@ export default function HomeProject() {
                 priority={false}
               />
             </Item>
-            <Item>
+            <Item isVisible={isVisible}>
               <ImgLink href="https://shantmargaryan.github.io/PopYRus/" target="_blank">
                 <Image
                   src="/imgs/PapYRus.png"

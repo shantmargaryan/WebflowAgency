@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Section, Container, Title, Paragraph, primaryLink, Img } from "@/styled/mixStyle";
+import { Container, Title, Paragraph, primaryLink, Img } from "@/styled/mixStyle";
 
 export const HeroSection = styled.section`
   padding-block-start: 10rem;
@@ -14,6 +14,12 @@ export const HeroContainer = styled.div`
   align-items: center;
   gap: 1.5rem;
   height: 100%;
+  `
+
+export const HeroContent = styled.div`
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const HeroTitle = styled.h1`
@@ -58,8 +64,9 @@ export const Link = styled(primaryLink)`
 `
 
 export const HeroImg = styled(Img)`
-  opacity: ${({ imageLoading }) => imageLoading ? '0' : '1'};
-  filter: blur(${({ imageLoading }) => imageLoading ? '10px' : '0px'});
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 

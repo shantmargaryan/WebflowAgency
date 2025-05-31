@@ -21,12 +21,17 @@ import {
   Price,
   LoadMoreButton
 } from "./styled";
+import IntersectionComponent from "@/Utils/Intersection";
 
 export default function ProjectsItems({ posts }) {
   const t = useTranslations("ProjectsItems");
-  const [imageLoading, setImageLoading] = useState(true);
   const [visiblePosts, setVisiblePosts] = useState(6);
   const [searchTerm, setSearchTerm] = useState('');
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
 
   const loadMore = () => {
     setVisiblePosts(prev => prev + 6);
@@ -50,15 +55,18 @@ export default function ProjectsItems({ posts }) {
 
   return (
     <ProjectsSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <ProjectsContainer>
-        <ProjectsTitle>
+        <ProjectsTitle isVisible={isVisible}>
           {t("currentTitle")}
         </ProjectsTitle>
-        <SearchBar onSearch={handleSearch} />
+        <SearchBar
+          onSearch={handleSearch} />
         <List>
           {
             filteredPosts?.slice(0, visiblePosts).map((post) => (
-              <Item key={post.id}>
+              <Item key={post.id}
+                isVisible={isVisible}>
                 <ImgLink href={`/projects/${post?.id}`}>
                   <Page>
                     {t(post?.page)}
@@ -69,8 +77,6 @@ export default function ProjectsItems({ posts }) {
                     width={700}
                     height={700}
                     style={{ width: '100%', height: 'auto' }}
-                    onLoad={() => setImageLoading(false)}
-                    imageLoading={imageLoading}
                     priority={false}
                   />
                 </ImgLink>

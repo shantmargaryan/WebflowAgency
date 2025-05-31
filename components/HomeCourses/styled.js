@@ -26,6 +26,10 @@ export const HomecoursesContent = styled.div`
   flex-direction: column;
   align-items: center;
   margin-block-end: 5rem;
+
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const HomecoursesList = styled.ul`
@@ -40,6 +44,27 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
+
+&:nth-child(1){
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 1s ease 0s, opacity 0.5s ease 700ms;
+}
+&:nth-child(2){
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 1.2s ease 0s, opacity 0.5s ease 800ms;
+}
+&:nth-child(3){
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 1.3s ease 0s, opacity 0.5s ease 900ms;
+}
+&:nth-child(4){
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 1.5s ease 0s, opacity 0.5s ease 1000ms;
+}
 `
 
 export const HomecoursesImg = styled(Img)`

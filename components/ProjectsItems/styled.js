@@ -16,6 +16,10 @@ export const ProjectsTitle = styled.h2`
   ${SecondaryTitle}
   margin-block-end: 3rem;
   text-align: center;
+
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const List = styled.ul`
@@ -29,6 +33,10 @@ export const List = styled.ul`
 export const Item = styled.li`
   display: flex;
   flex-direction: column;
+
+  transform:scale( ${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const SmallTitle = styled.h3`

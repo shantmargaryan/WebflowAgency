@@ -1,8 +1,13 @@
 import styled from "styled-components";
 import { Section, Container, SecondaryTitle, Paragraph, Img } from "@/styled/mixStyle";
 
+
 export const ClientsSection = styled.section`
   ${Section}
+
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 400ms;
   `
 
 export const ClientsContainer = styled.div`

@@ -26,6 +26,17 @@ export const Wrapper = styled.div`
 `
 
 export const Content = styled.div`
+
+&:nth-child(1){
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
+}
+&:nth-child(2){
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.6s ease 0s, opacity 0.5s ease 100ms;
+}
   `
 
 export const BeforeTitle = styled.span`
@@ -42,4 +53,7 @@ export const Description = styled.p`
 
 export const WhoWeAreImg = styled(Img)`
   aspect-ratio: 3;
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `

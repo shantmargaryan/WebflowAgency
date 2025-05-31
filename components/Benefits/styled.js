@@ -16,6 +16,10 @@ export const BenefitsTitle = styled.h3`
   ${SecondaryTitle}
   margin-block-end: 4rem;
   text-align: center;
+
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const BenefitsList = styled.ul`
@@ -28,6 +32,10 @@ export const BenefitsList = styled.ul`
 export const BenefitsItem = styled.li`
   padding: min(2rem, 5vw);
   transition: background-color 0.4s ease 0s;
+
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
 
 [data-theme="light"] & {
   background-color: ${({ theme }) => theme.colors.gray};

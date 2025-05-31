@@ -11,65 +11,61 @@ import {
   TeamName,
   TeamPosition
 } from "./styled";
+import { images } from "./images";
+import IntersectionComponent from "@/Utils/Intersection";
 
 
 export default function AboutTeam() {
   const t = useTranslations("AboutTeam")
   const t2 = useTranslations("AboutTeam.Items")
-  const [imageLoading, setImageLoading] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
+
+  const items = [
+    {
+      name: t2("name"),
+      position: t2("position"),
+    },
+    {
+      name: t2("secoundname"),
+      position: t2("secoundposition"),
+    },
+    {
+      name: t2("thirdname"),
+      position: t2("thirdposition"),
+    },
+  ]
 
   return (
     <TeamSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <TeamContainer>
-        <TeamTitle>
+        <TeamTitle isVisible={isVisible}>
           {t("title")}
         </TeamTitle>
         <TeamList>
-          <TeamItem>
-            <TeamImg src="/imgs/ShantMargaryan.jpg" alt="team"
-              width={100}
-              height={100}
-              onLoad={() => setImageLoading(false)}
-              imageLoading={imageLoading}
-              priority={false}
-            />
-            <TeamName>
-              {t2("name")}
-            </TeamName>
-            <TeamPosition>
-              {t2("position")}
-            </TeamPosition>
-          </TeamItem>
-          <TeamItem>
-            <TeamImg src="/imgs/KarenNersisyan.jpg" alt="team"
-              width={100}
-              height={100}
-              onLoad={() => setImageLoading(false)}
-              imageLoading={imageLoading}
-              priority={false}
-            />
-            <TeamName>
-              {t2("secoundname")}
-            </TeamName>
-            <TeamPosition>
-              {t2("secoundposition")}
-            </TeamPosition>
-          </TeamItem>
-          <TeamItem>
-            <TeamImg src="/imgs/VahanHovhannisian.jpg" alt="team"
-              width={100}
-              height={100}
-              onLoad={() => setImageLoading(false)}
-              imageLoading={imageLoading}
-              priority={false}
-            />
-            <TeamName>
-              {t2("thirdname")}
-            </TeamName>
-            <TeamPosition>
-              {t2("thirdposition")}
-            </TeamPosition>
-          </TeamItem>
+          {
+            items.map((item, index) => (
+              <TeamItem key={index}
+                isVisible={isVisible}>
+                <TeamImg
+                  src={images[index]?.src}
+                  alt={images[index]?.alt}
+                  width={100}
+                  height={100}
+                />
+                <TeamName>
+                  {item?.name}
+                </TeamName>
+                <TeamPosition>
+                  {item?.position}
+                </TeamPosition>
+              </TeamItem>
+            ))
+          }
         </TeamList>
       </TeamContainer>
     </TeamSection>

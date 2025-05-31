@@ -10,15 +10,21 @@ import {
   AboutParagraph,
   AboutImg
 } from "./styled";
+import IntersectionComponent from "@/Utils/Intersection";
 
 export default function AboutHero() {
   const t = useTranslations("AboutHero");
-  const [imageloading, setImageLoading] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
 
   return (
     <AboutSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <AboutContainer>
-        <Content>
+        <Content isVisible={isVisible}>
           <BeforeTitle>
             {t("beforeTitle")}
           </BeforeTitle>
@@ -29,14 +35,12 @@ export default function AboutHero() {
             {t("description")}
           </AboutParagraph>
         </Content>
-        <AboutImg src="/imgs/OfficeImg2.jpg"
+        <AboutImg isVisible={isVisible} src="/imgs/OfficeImg2.jpg"
           alt="aboutHero"
           width={700}
           height={700}
           style={{ width: '100%', height: 'auto' }}
-          onLoad={() => setImageLoading(false)}
           priority={false}
-          imageLoading={imageloading}
         />
       </AboutContainer>
     </AboutSection>

@@ -1,15 +1,21 @@
 "use client";
-import { HeroSection, HeroContainer, HeroTitle, HeroParagraph, Link } from "./styled";
-import Image from "next/image";
+import { HeroSection, HeroContainer, HeroContent, HeroTitle, HeroParagraph, Link, HeroImg } from "./styled";
 import { useState } from "react";
+import IntersectionComponent from "@/Utils/Intersection";
 
 export default function Hero({ title, description, img, link }) {
   const [imageLoading, setImageLoading] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
 
   return (
     <HeroSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <HeroContainer>
-        <div>
+        <HeroContent isVisible={isVisible}>
           <HeroTitle>
             {title}
           </HeroTitle>
@@ -19,17 +25,17 @@ export default function Hero({ title, description, img, link }) {
           <Link href="/projects">
             {link}
           </Link>
-        </div>
-        <Image
+        </HeroContent>
+        <HeroImg
+          isVisible={isVisible}
           src={img}
           alt="homeHero"
           width={700}
           height={700}
           style={{ width: '100%', height: 'auto' }}
-          onLoadingComplete={() => setImageLoading(false)}
           priority={true}
         />
       </HeroContainer>
-    </HeroSection>
+    </HeroSection >
   );
 }

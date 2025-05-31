@@ -16,6 +16,10 @@ export const TeamTitle = styled.h3`
   ${SecondaryTitle}
   margin-block-end: 3rem;
   text-align: center;
+
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const TeamList = styled.ul`
@@ -31,6 +35,23 @@ export const TeamItem = styled.li`
   flex-direction: column;
   align-items: center;
   gap: .5rem;
+
+  &:nth-child(1){
+    transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+    opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+    transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
+  }
+
+  &:nth-child(2){
+    transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+    opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+    transition: transform 0.6s ease 0s, opacity 0.5s ease 100ms;
+  }
+    &:nth-child(3){
+    transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+    opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+    transition: transform 0.6s ease 0s, opacity 0.5s ease 200ms;
+  }
   `
 
 export const TeamImg = styled(Img)`

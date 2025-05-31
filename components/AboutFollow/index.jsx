@@ -11,6 +11,7 @@ import {
   Decoration,
   SmallTitle
 } from "./styled";
+import IntersectionComponent from "@/Utils/Intersection";
 
 
 
@@ -18,7 +19,11 @@ export default function AboutFollow() {
   const t = useTranslations("AboutFollow");
   const t2 = useTranslations("AboutFollow.Items");
   const [aboutFollow, setAboutFollow] = useState([]);
-  const [imageLoading, setImageLoading] = useState(true);
+  const [isvisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -37,18 +42,18 @@ export default function AboutFollow() {
 
   return (
     <FollowSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <FollowContainer>
-        <FollowTitle>
+        <FollowTitle isVisible={isvisible}>
           {t("title")}
         </FollowTitle>
         <List>
           {aboutFollow?.map((item) => (
-            <Item key={item.id}>
+            <Item key={item.id}
+              isVisible={isvisible}>
               <FollowImg src="/svg/LineIcon.svg" alt="icons"
                 width={700}
                 height={700}
-                onLoad={() => setImageLoading(false)}
-                imageLoading={imageLoading}
                 priority={false}
               />
               <SmallTitle>

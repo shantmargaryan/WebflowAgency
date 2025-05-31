@@ -25,6 +25,10 @@ export const CoursesContent = styled.div`
   align-items: center;
   margin-block-end: 5rem;
   text-align: center;
+
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
 `
 
 export const ImgContent = styled.div`
@@ -74,6 +78,10 @@ export const CoursesImg = styled(Img)`
 height: 350px;
 margin-block-end: 20px;
 border-radius: 10px;
+
+transform: scale( ${({ isVisible }) => isVisible ? '1' : '0'});
+opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
 `;
 
 export const CoursesBefourTitle = styled.span`
@@ -107,6 +115,10 @@ display: inline-flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: start;
+
+transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
 `
 
 export const CoursesLink = styled(NextLink)`

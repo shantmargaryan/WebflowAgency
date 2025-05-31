@@ -21,10 +21,16 @@ import {
 import { useTranslations } from "next-intl";
 import { Link } from '@/i18n/navigation';
 import { useState, useEffect } from "react";
+import IntersectionComponent from "@/Utils/Intersection";
 
 export default function Courses() {
   const t2 = useTranslations("CoursesItems");
   const [courses, setCourses] = useState([]);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleIntersect = () => {
+    setIsVisible(true);
+  };
 
   useEffect(() => {
     const fetchCourses = async () => {
@@ -42,14 +48,16 @@ export default function Courses() {
 
   return (
     <CoursesSection>
+      <IntersectionComponent onIntersect={handleIntersect} />
       <CoursesContainer>
-        <CoursesContent>
+        <CoursesContent isVisible={isVisible}>
           <CoursesCurrentTitle>{t2("currentTitle")}</CoursesCurrentTitle>
           <CoursesCurrentDescription>{t2("currentDescription")}</CoursesCurrentDescription>
         </CoursesContent>
         <CoursesList>
           {courses.map((course) => (
-            <CoursesItem key={course.id}>
+            <CoursesItem key={course.id}
+              isVisible={isVisible}>
               <ImgContent>
                 {course.teacherImg &&
                   <TeacherImg
@@ -70,6 +78,7 @@ export default function Courses() {
               </ImgContent>
               <Link href={`/courses/${course?.id}`}>
                 <CoursesImg
+                  isVisible={isVisible}
                   src={course.img}
                   alt="course image"
                   width={500}

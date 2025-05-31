@@ -23,6 +23,10 @@ export const Content = styled.div`
 
 export const ProjectTitle = styled.h3`
   ${SecondaryTitle}
+  margin: 0;
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const List = styled.ul`
@@ -41,6 +45,9 @@ export const ImgBox = styled.div`
 export const Item = styled.li`
   position: relative;
   height: fit-content;
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const ItemContent = styled.div`
@@ -92,6 +99,10 @@ export const ViewMore = styled(primaryLink)`
   display: flex;
   align-items: center;
   gap: 0.5rem;
+
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
 
   & svg {
     stroke-width: 1.5px;

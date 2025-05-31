@@ -4,6 +4,10 @@ import { Section, Container, Paragraph, Title } from "@/styled/mixStyle";
 export const HeroSection = styled.section`
   ${Section}
   padding-block-start: 10rem;
+
+  transform: translateY(${({ isVisible }) => isVisible ? '0' : '50px'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
   `
 
 export const HeroContainer = styled.div`
