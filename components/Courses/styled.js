@@ -122,7 +122,8 @@ transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
 `
 
 export const CoursesLink = styled(NextLink)`
-  
+  color: ${({ theme }) => theme.colors.darkBlue};
+
   &:hover {
     text-decoration: underline;
   }
