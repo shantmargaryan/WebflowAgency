@@ -14,8 +14,7 @@ export const TransitionLinks = styled(NextLink)`
   border-radius: 2.5625rem;
 
   &:hover {
-    background-color: #fcd980;
-    color: #282938;
+    color: #fff;
   }
 
   @media (${({ theme }) => theme.media.laptop}) {
