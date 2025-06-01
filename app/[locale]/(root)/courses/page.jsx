@@ -13,7 +13,7 @@ export default function CoursesPage() {
       <Hero
         title={t("title")}
         description={t("description")}
-        img="/imgs/HomeHeroImg.png"
+        img="/imgs/CoursesHeroImg.png"
         link={t("link")}
       />
       <Courses />

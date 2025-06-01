@@ -24,7 +24,7 @@ export default function Navigation({ isOpen, headerHeight, linkActive, setIsOpen
         role="navigation"
         onTouchEnd={handleTouchEnd}
       >
-        <NavList>
+        <NavList isVisible={isVisible}>
           {links.map(({ href, label }) => (
             <li key={href}>
               <TransitionLink
