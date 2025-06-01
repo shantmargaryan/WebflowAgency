@@ -22,7 +22,7 @@ export default function HomePage() {
       <HomeProject />
       <HomeCourses />
       <HomeFeatures />
-      <HomeClients />
+      {/* <HomeClients /> */}
       <ContactForm />
       {/* <HomeBlog /> */}
     </>
