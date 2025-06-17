@@ -76,7 +76,6 @@ export const NavList = styled.ul`
     padding: .625rem .7rem;
     background-color: ${({ theme }) => theme.colors.yellow};
     border-radius: 2.5625rem;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transform: translateY(${({ isVisible }) => isVisible ? '0' : '-100%'});
   opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
   transition: transform 0.6s ease 0s, opacity 0.6s ease 0s;
