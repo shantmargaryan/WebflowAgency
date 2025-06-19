@@ -7,18 +7,18 @@ import { ThemeProvider as NextThemesProvider } from "next-themes";
 
 export const metadata = {
   title: {
-    default: "Web flow",
-    template: "%s - Web flow",
+    default: "Welcom To IT",
+    template: "%s - Welcom To IT",
   },
   description: "WEBFOWFLAGYAGIEN - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ",
   keywords: "Վեբ flow, վեբ ձեւավորում, վեբ մշակում, գործակալություն, թվային գործակալություն",
   openGraph: {
     type: "website",
     locale: "am-AM",
-    url: "https://web-flow.am",
-    siteName: "Web flow",
-    title: "Web flow - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ",
-    description: "WEBFOWFLAGYAGIEN - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ",
+    url: "",
+    siteName: "Welcom To IT",
+    title: "Welcom To IT - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ",
+    description: "Welcom To IT - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ",
   },
   robots: {
     index: true,
