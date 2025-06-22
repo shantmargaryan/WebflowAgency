@@ -6,7 +6,7 @@ export const Images = [
   },
   {
     id: 2,
-    path: "/imgs/barberShopImg1.png",
+    path: "/imgs/barberShopImg1.jpeg",
     alt: "projects",
   },
   {
