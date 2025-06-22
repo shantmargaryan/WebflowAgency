@@ -26,7 +26,7 @@ export default function CoursesForm() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "84d56656-509f-4c89-b6d2-a071832487fd");
+    formData.append("access_key", "9d8b7267-8669-4d02-b1b6-5b0c899451b4");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);

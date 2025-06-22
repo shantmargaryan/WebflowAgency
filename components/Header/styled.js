@@ -8,16 +8,26 @@ export const HeaderWrapper = styled.header`
   left: 0;
   z-index: 10;
   width: 100%;
-  padding-block: 1rem;
   background-color: ${({ theme }) => theme.colors.tintBlue};
 `;
 
 export const HeaderContainer = styled.div`
   ${Container}
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: .5rem;
+  padding-block: 1rem;
+
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 11;
+    background-color: ${({ theme }) => theme.colors.tintBlue};
+  }
 `;
 
 export const Nav = styled.nav`
@@ -32,7 +42,7 @@ export const Nav = styled.nav`
   flex-direction: column;
   gap: 3rem;
   width: 100%;
-  height: 70%;
+  height: 75%;
   background-color: ${({ theme }) => theme.colors.tintBlue};
   transition: top ease 0.6s, opacity ease 0.6s;
 
@@ -41,6 +51,7 @@ export const Nav = styled.nav`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    z-index: 12;
     opacity: 1;
     height: auto;
     padding: 0;
@@ -87,7 +98,7 @@ export const Burger = styled.button`
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 10;
+  z-index: 12;
   flex-shrink: 0;
   width: 30px;
   height: 20px;
@@ -117,4 +128,5 @@ export const BurgerLine = styled.span`
 export const UtilButtons = styled.div`
   display: flex;
   gap: 1rem;
+  z-index: 12;
 `;

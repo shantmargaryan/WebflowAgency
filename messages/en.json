@@ -52,7 +52,13 @@
       "thirdLink": "Learn more",
       "fourthTitle": "SMM",
       "fourthDescription": "Learn how to promote your website through social media platforms.",
-      "fourthLink": "Learn more"
+      "fourthLink": "Learn more",
+      "fifthTitle": "English Language",
+      "fifthDescription": "Learn English language from the basics to the advanced level.",
+      "fifthLink": "Learn more",
+      "sixthTitle": "UI/UX Design",
+      "sixthDescription": "Learn how to design user-friendly and visually appealing websites.",
+      "sixthLink": "Learn more"
     }
   },
   "coursesHero": {
@@ -94,6 +100,18 @@
     "fifthTitle": "Explore Our Course for Full-Stack Development",
     "fifthDescription": "Our full-stack development course covers the end-to-end development process, including both frontend and backend development.",
     "fifthLargeDescription": "Don't just take our word for it - our courses have helped thousands of students achieve their career goals and improve their skills. Here's what some of our students have to say: 'I was able to land my dream job after taking this course!' 'The instructor was knowledgeable and provided great feedback.' 'I loved the interactive discussions and peer feedback.' Read more testimonials from our satisfied students and see how our courses can help you achieve your goals.",
+    "sixthTeacherName": "Hasmik Arshakyan",
+    "sixthTeacherPosition": "Instructor & English Teacher",
+    "sixthBefourTitle": "English Language",
+    "sixthTitle": "Explore Our Course for English Language",
+    "sixthDescription": "Our English language course covers the fundamentals of language learning and communication.",
+    "sixthLargDescription": "Take your English skills to the next level with our comprehensive course. Covering topics from beginner to advanced, our lessons include interactive exercises,our course is designed to help you achieve your goals.",
+    "seventhTeacherName": "Syuzi Sargsyan",
+    "seventhTeacherPosition": "Instructor & Graphic Designer",
+    "seventhBefourTitle": "UI UX Design",
+    "seventhTitle": "Explore Our Course for Graphic Design",
+    "seventhDescription": "Our graphic design course covers the latest trends and techniques for creating visually appealing and user-friendly websites.",
+    "seventhLargDescription": "Unlock your creativity and master the art of visual communication with our comprehensive graphic design course. Learn essential design principles, industry-standard tools, and practical techniques to create stunning graphics for web and print. Through hands-on projects, expert feedback, and a supportive learning community, you'll build a professional portfolio and gain the confidence to pursue a successful career in graphic design.",
     "Items": {
       "1": {
         "itemOne": "Learn the fundamentals of color theory, typography, and layout.",
@@ -119,6 +137,16 @@
         "itemOne": "Combine frontend and backend skills to build complete web applications.",
         "itemTwo": "Deploy and maintain your projects using modern tools.",
         "itemThree": "Collaborate on group projects and build a professional portfolio."
+      },
+      "6": {
+        "itemOne": "Learn the fundamentals of English grammar, vocabulary, and communication skills.",
+        "itemTwo": "learn English language from the basics to the advanced level.",
+        "itemThree": "turn around your speaking and writing skills."
+      },
+      "7": {
+        "itemOne": "Learn the fundamentals of graphic design and its applications.",
+        "itemTwo": "Work on real-world projects to build your portfolio.",
+        "itemThree": "Get feedback from experienced designers and instructors."
       }
     }
   },

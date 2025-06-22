@@ -65,6 +65,16 @@ align-items: center;
   opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
   transition: transform 1.5s ease 0s, opacity 0.5s ease 1000ms;
 }
+&:nth-child(5){
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 1.6s ease 0s, opacity 0.5s ease 1100ms;
+}
+&:nth-child(6){
+  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
+  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
+  transition: transform 1.7s ease 0s, opacity 0.5s ease 1200ms;
+}
 `
 
 export const HomecoursesImg = styled(Img)`

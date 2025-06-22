@@ -39,9 +39,13 @@ export const Link = styled(primaryLink)`
   overflow: hidden;
   padding: 0.625rem 1.25rem;
     background-color: ${({ theme }) => theme.colors.yellow};
-    color: ${({ theme }) => theme.colors.darkBlue};
     border-radius: 2.5625rem;
     font-weight: 400;
+
+    [data-theme="dark"] & {
+      background-color: ${({ theme }) => theme.colors.yellow};
+      color: ${({ theme }) => theme.colors.darkBlue};
+    }
 
     &::before {
       content: "";

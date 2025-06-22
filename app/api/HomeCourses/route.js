@@ -26,6 +26,18 @@ export async function GET() {
       "title": "fourthTitle",
       "description": "fourthDescription",
       "link": "link"
+    },
+    {
+      "id": 5,
+      "title": "fifthTitle",
+      "description": "fifthDescription",
+      "link": "link"
+    },
+    {
+      "id": 6,
+      "title": "sixthTitle",
+      "description": "sixthDescription",
+      "link": "link"
     }
   ];
   return NextResponse.json(HomeCourses);

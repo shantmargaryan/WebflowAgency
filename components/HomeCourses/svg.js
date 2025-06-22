@@ -14,6 +14,14 @@ const svg = [
   {
     id: 4,
     path: "/svg/Marketing.svg",
+  },
+  {
+    id: 5,
+    path: "/svg/EnglishLanguage.svg",
+  },
+  {
+    id: 6,
+    path: "/svg/UIUXDesign.svg",
   }
 ]
 

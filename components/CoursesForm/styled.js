@@ -67,8 +67,9 @@ export const Input = styled.input`
 
   &::placeholder{
     color: rgba(255, 255, 255, 0.5);
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
+    font-size: 16px;
   }
 `
 
@@ -119,6 +120,9 @@ export const Textarea = styled.textarea`
   &::placeholder{
     color: rgba(255, 255, 255, 0.5);
     font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
   }
 `
 

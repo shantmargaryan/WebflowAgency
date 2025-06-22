@@ -64,6 +64,30 @@ export async function GET() {
       teacherImg: "/imgs/VahanHovhannisian.jpg",
       link: "link",
     },
+    {
+      id: 6,
+      teacherName: "sixthTeacherName",
+      teacherPosition: "sixthTeacherPosition",
+      befourTitle: "sixthBefourTitle",
+      title: "sixthTitle",
+      description: "sixthDescription",
+      largeDescription: "sixthLargeDescription",
+      img: "/imgs/courseImg6.jpg",
+      teacherImg: "",
+      link: "link",
+    },
+    {
+      id: 7,
+      teacherName: "seventhTeacherName",
+      teacherPosition: "seventhTeacherPosition",
+      befourTitle: "seventhBefourTitle",
+      title: "seventhTitle",
+      description: "seventhDescription",
+      largeDescription: "seventhLargeDescription",
+      img: "/imgs/courseImg7.webp",
+      teacherImg: "",
+      link: "link",
+    },
   ];
   return NextResponse.json(CoursesItems);
 }
