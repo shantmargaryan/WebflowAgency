@@ -4,9 +4,7 @@ import { useState } from "react";
 import IntersectionComponent from "@/Utils/Intersection";
 
 export default function Hero({ title, description, img, link }) {
-  const [imageLoading, setImageLoading] = useState(true);
   const [isVisible, setIsVisible] = useState(false);
-
   const handleIntersect = () => {
     setIsVisible(true);
   };

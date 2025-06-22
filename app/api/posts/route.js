@@ -23,8 +23,8 @@ export function GET() {
       "price": "price",
       "viewMore": "viewMore",
       "href": "https://barber-shop-nu-fawn.vercel.app/",
-      "path": "/imgs/barberShopImg1.png",
-      "imgUrl": "/imgs/barberShopImg2.png",
+      "path": "/imgs/barberShopImg1.jpeg",
+      "imgUrl": "/imgs/barberShopImg1.jpeg",
       "alt": "project"
     },
     {
