@@ -35,7 +35,7 @@ export default function AboutHero() {
             {t("description")}
           </AboutParagraph>
         </Content>
-        <AboutImg isVisible={isVisible} src="/imgs/OfficeImg2.jpg"
+        <AboutImg isVisible={isVisible} src="/imgs/OfficeImg2.png"
           alt="aboutHero"
           width={700}
           height={700}

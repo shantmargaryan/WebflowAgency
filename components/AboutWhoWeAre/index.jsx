@@ -54,7 +54,7 @@ export default function AboutWhoWeAre() {
             ))
           }
         </Wrapper>
-        <WhoWeAreImg src="/imgs/OfficeImg1.jpg"
+        <WhoWeAreImg src="/imgs/OfficeImg1.png"
           alt="whoWeAre"
           isVisible={isVisible}
           width={700}
