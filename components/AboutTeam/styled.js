@@ -24,34 +24,16 @@ export const TeamTitle = styled.h3`
 
 export const TeamList = styled.ul`
   ${ListReset}
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax( 300px, 1fr ) );
   justify-content: space-evenly;
-  gap: 1.5rem;
+  gap: .7rem;
   `
 
 export const TeamItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .5rem;
-
-  &:nth-child(1){
-    transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
-    opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
-    transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
-  }
-
-  &:nth-child(2){
-    transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
-    opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
-    transition: transform 0.6s ease 0s, opacity 0.5s ease 100ms;
-  }
-    &:nth-child(3){
-    transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
-    opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
-    transition: transform 0.6s ease 0s, opacity 0.5s ease 200ms;
-  }
   `
 
 export const TeamImg = styled(Img)`

@@ -3,7 +3,7 @@ import { HeroSection, HeroContainer, HeroContent, HeroTitle, HeroParagraph, Link
 import { useState } from "react";
 import IntersectionComponent from "@/Utils/Intersection";
 
-export default function Hero({ title, description, img, link }) {
+export default function Hero({ title, description, img, link, href }) {
   const [isVisible, setIsVisible] = useState(false);
   const handleIntersect = () => {
     setIsVisible(true);
@@ -20,7 +20,7 @@ export default function Hero({ title, description, img, link }) {
           <HeroParagraph>
             {description}
           </HeroParagraph>
-          <Link href="/projects">
+          <Link href={href}>
             {link}
           </Link>
         </HeroContent>

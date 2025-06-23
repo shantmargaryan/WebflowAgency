@@ -55,8 +55,12 @@ export default function Courses() {
           <CoursesCurrentDescription>{t2("currentDescription")}</CoursesCurrentDescription>
         </CoursesContent>
         <CoursesList>
-          {courses.map((course) => (
-            <CoursesItem key={course.id}
+          {courses.map((course, index) => (
+            <CoursesItem style={{
+              transform: `scale(${isVisible ? '1' : '0'})`,
+              opacity: `${isVisible ? '1' : '0'}`,
+              transition: `transform ${index * 0.1 + 1}s ease 0s, opacity 0.5s ease ${index * 0.1 + 0.7}s`
+            }} key={course.id}
               isVisible={isVisible}>
               <ImgContent>
                 {course.teacherImg &&

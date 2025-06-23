@@ -52,7 +52,6 @@ export const Description = styled.p`
   `
 
 export const WhoWeAreImg = styled(Img)`
-  aspect-ratio: 3;
   transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
   opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
   transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;

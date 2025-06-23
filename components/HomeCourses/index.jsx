@@ -51,8 +51,12 @@ const HomeCourses = () => {
           <HomecoursesParagraph>{t('description')}</HomecoursesParagraph>
         </HomecoursesContent>
         <HomecoursesList>
-          {courses.map((courses) => (
-            <HomecoursesItem key={courses.id} isVisible={isVisible}>
+          {courses.map((courses, index) => (
+            <HomecoursesItem style={{
+              transform: `scale(${isVisible ? '1' : '0'})`,
+              opacity: `${isVisible ? '1' : '0'}`,
+              transition: `transform ${index * 0.1 + 1}s ease 0s, opacity 0.5s ease ${index * 0.1 + 0.7}s`
+            }} key={courses.id} isVisible={isVisible}>
               <Image
                 src={svg[courses.id - 1].path}
                 alt={t2(courses.title)}

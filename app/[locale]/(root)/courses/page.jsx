@@ -15,6 +15,7 @@ export default function CoursesPage() {
         description={t("description")}
         img="/imgs/CoursesHeroImg.png"
         link={t("link")}
+        href="#register"
       />
       <Courses />
       <CoursesForm />

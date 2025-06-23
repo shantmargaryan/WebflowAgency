@@ -37,7 +37,7 @@ export async function GET() {
       description: "thirdDescription",
       largeDescription: "thirdLargeDescription",
       img: "/imgs/courseImg2.jpg",
-      teacherImg: "",
+      teacherImg: "/imgs/KarenHarutyunyan.jpg",
       link: "link",
     },
     {
@@ -49,7 +49,7 @@ export async function GET() {
       description: "fourthDescription",
       largeDescription: "fourthLargeDescription",
       img: "/imgs/courseImg3.jpg",
-      teacherImg: "",
+      teacherImg: "/imgs/MarineTorosyan.jpg",
       link: "link",
     },
     {
@@ -73,7 +73,7 @@ export async function GET() {
       description: "sixthDescription",
       largeDescription: "sixthLargeDescription",
       img: "/imgs/courseImg6.jpg",
-      teacherImg: "",
+      teacherImg: "/imgs/HasmikArshakyan.jpg",
       link: "link",
     },
     {
@@ -85,7 +85,7 @@ export async function GET() {
       description: "seventhDescription",
       largeDescription: "seventhLargeDescription",
       img: "/imgs/courseImg7.webp",
-      teacherImg: "",
+      teacherImg: "/imgs/SyuziSargsyan.jpg",
       link: "link",
     },
   ];

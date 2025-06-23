@@ -47,7 +47,7 @@ export default function CoursesForm() {
   };
 
   return (
-    <CoursesFormSection>
+    <CoursesFormSection id="register">
       <CoursesFormContainer>
         <CoursesFormContent>
           <CoursesFormTitle>{t("title")}</CoursesFormTitle>

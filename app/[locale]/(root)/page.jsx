@@ -17,6 +17,7 @@ export default function HomePage() {
         description={t("description")}
         img="/imgs/HomeHeroImg.png"
         link={t("link")}
+        href="/courses"
       />
       <HomeWork />
       <HomeProject />

@@ -44,37 +44,6 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-
-&:nth-child(1){
-  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
-  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
-  transition: transform 1s ease 0s, opacity 0.5s ease 700ms;
-}
-&:nth-child(2){
-  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
-  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
-  transition: transform 1.2s ease 0s, opacity 0.5s ease 800ms;
-}
-&:nth-child(3){
-  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
-  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
-  transition: transform 1.3s ease 0s, opacity 0.5s ease 900ms;
-}
-&:nth-child(4){
-  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
-  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
-  transition: transform 1.5s ease 0s, opacity 0.5s ease 1000ms;
-}
-&:nth-child(5){
-  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
-  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
-  transition: transform 1.6s ease 0s, opacity 0.5s ease 1100ms;
-}
-&:nth-child(6){
-  transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
-  opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
-  transition: transform 1.7s ease 0s, opacity 0.5s ease 1200ms;
-}
 `
 
 export const HomecoursesImg = styled(Img)`

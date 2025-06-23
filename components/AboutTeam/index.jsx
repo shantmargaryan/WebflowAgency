@@ -37,6 +37,22 @@ export default function AboutTeam() {
       name: t2("thirdname"),
       position: t2("thirdposition"),
     },
+    {
+      name: t2("fourthname"),
+      position: t2("fourthposition"),
+    },
+    {
+      name: t2("fifthname"),
+      position: t2("fifthposition"),
+    },
+    {
+      name: t2("sixthname"),
+      position: t2("sixthposition"),
+    },
+    {
+      name: t2("seventhname"),
+      position: t2("seventhposition"),
+    },
   ]
 
   return (
@@ -49,7 +65,11 @@ export default function AboutTeam() {
         <TeamList>
           {
             items.map((item, index) => (
-              <TeamItem key={index}
+              <TeamItem style={{
+                transform: `scale(${isVisible ? '1' : '0'})`,
+                opacity: `${isVisible ? '1' : '0'}`,
+                transition: `transform ${index * 0.1 + 1}s ease 0s, opacity 0.5s ease ${index * 0.1 + 0.7}s`
+              }} key={index}
                 isVisible={isVisible}>
                 <TeamImg
                   src={images[index]?.src}

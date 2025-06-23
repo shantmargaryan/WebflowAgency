@@ -10,7 +10,7 @@
   "HomeHero": {
     "title": "We create great websites for everyone",
     "description": "Our team specializes in creating modern, fast, and optimized websites. We help businesses grow their online presence with cutting-edge web solutions.",
-    "link": "View our works"
+    "link": "Courses"
   },
   "HomeWork": {
     "title": "How we work",
@@ -64,7 +64,7 @@
   "coursesHero": {
     "title": "Advance your skills with our courses",
     "description": "Join our expert-led courses to master web development, design, and digital marketing. Whether you're a beginner or looking to upskill, we have the right course for you.",
-    "link": "View projects"
+    "link": "Register"
   },
   "CoursesItems": {
     "currentTitle": "Courses",
@@ -75,7 +75,7 @@
     "title": "Explore Our Course for Web Design",
     "description": "Our web design course covers the latest trends and techniques in creating visually appealing and user-friendly websites.",
     "largeDescription": "Our courses are designed to provide you with the knowledge and skills you need to succeed in the ever-changing landscape of web development, design, and digital marketing. With a focus on practical, hands-on learning, our courses cover topics such as web development frameworks, design principles, and digital marketing strategies. Whether you're looking to upskill or reskill, our courses are the perfect way to take your career to the next level.",
-    "link": "register",
+    "link": "Learn more",
     "secoundTeacherName": "Vahan Hovhannisian",
     "secoundTeacherPosition": "Instructor & Frontend Developer",
     "secoundBefourTitle": "Frontend Development",
@@ -274,7 +274,15 @@
       "secoundname": "Karen Nersisyan",
       "secoundposition": "Backend Developer & SEO optimization",
       "thirdname": "Vahan Hovhannisian",
-      "thirdposition": "Frontend Developer"
+      "thirdposition": "Frontend Developer",
+      "fourthname": "Karen Harutyunyan",
+      "fourthposition": "Backend Developer",
+      "fifthname": "Marine Torosyan",
+      "fifthposition": "SMM",
+      "sixthname": "Hasmik Arshakyan",
+      "sixthposition": "English Teacher",
+      "seventhname": "Suzyi Sargsyan",
+      "seventhposition": "UI UX Designer"
     }
   },
   "FeaturesHero": {

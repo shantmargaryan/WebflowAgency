@@ -11,7 +11,6 @@ export const AboutSection = styled.section`
 export const AboutContainer = styled.div`
   ${Container}
   display: grid;
-  align-items: center;
   justify-items: center;
   grid-template-columns: ${({ theme }) => theme.Response.gridCustom};
   gap: 1.5rem;
@@ -38,8 +37,7 @@ export const AboutParagraph = styled.p`
   `
 
 export const AboutImg = styled(Img)`
-  aspect-ratio: 3/2;
-
+  aspect-ratio: 1;
   transform: scale(${({ isVisible }) => isVisible ? '1' : '0'});
   opacity: ${({ isVisible }) => isVisible ? '1' : '0'};
   transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
