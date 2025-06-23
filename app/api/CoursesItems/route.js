@@ -13,7 +13,7 @@ export async function GET() {
       description: "description",
       largeDescription: "largeDescription",
       img: "/imgs/courseImg5.jpg",
-      teacherImg: "/imgs/ShantMargaryan.jpg",
+      teacherImg: "/imgs/ShantMargaryan.png",
       link: "link",
     },
     {
@@ -25,7 +25,7 @@ export async function GET() {
       description: "secoundDescription",
       largeDescription: "secoundLargeDescription",
       img: "/imgs/courseImg4.jpg",
-      teacherImg: "/imgs/VahanHovhannisian.jpg",
+      teacherImg: "/imgs/VahanHovhannisian.png",
       link: "link",
     },
     {
@@ -37,7 +37,7 @@ export async function GET() {
       description: "thirdDescription",
       largeDescription: "thirdLargeDescription",
       img: "/imgs/courseImg2.jpg",
-      teacherImg: "/imgs/KarenHarutyunyan.jpg",
+      teacherImg: "/imgs/KarenHarutyunyan.png",
       link: "link",
     },
     {
@@ -49,7 +49,7 @@ export async function GET() {
       description: "fourthDescription",
       largeDescription: "fourthLargeDescription",
       img: "/imgs/courseImg3.jpg",
-      teacherImg: "/imgs/MarineTorosyan.jpg",
+      teacherImg: "/imgs/MarineTorosyan.png",
       link: "link",
     },
     {
@@ -61,7 +61,7 @@ export async function GET() {
       description: "fifthDescription",
       largeDescription: "fifthLargeDescription",
       img: "/imgs/courseImg1.jpg",
-      teacherImg: "/imgs/VahanHovhannisian.jpg",
+      teacherImg: "/imgs/VahanHovhannisian.png",
       link: "link",
     },
     {
@@ -73,7 +73,7 @@ export async function GET() {
       description: "sixthDescription",
       largeDescription: "sixthLargeDescription",
       img: "/imgs/courseImg6.jpg",
-      teacherImg: "/imgs/HasmikArshakyan.jpg",
+      teacherImg: "/imgs/HasmikArshakyan.png",
       link: "link",
     },
     {
@@ -85,7 +85,7 @@ export async function GET() {
       description: "seventhDescription",
       largeDescription: "seventhLargeDescription",
       img: "/imgs/courseImg7.webp",
-      teacherImg: "/imgs/SyuziSargsyan.jpg",
+      teacherImg: "/imgs/SyuziSargsyan.png",
       link: "link",
     },
   ];
