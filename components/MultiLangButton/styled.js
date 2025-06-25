@@ -13,8 +13,9 @@ export const LangButton = styled.button`
   border-radius: 0.5rem 0 0 0.5rem;
   border: 0.1875rem solid rgb(18, 20, 60);
   color: ${({ theme }) => theme.colors.white};
+  transition: background-color 0.5s ease 0s;
 
-  &:active {
+  &:hover {
     background-color: rgb(28, 30, 83);
   }
 

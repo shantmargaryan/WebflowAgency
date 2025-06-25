@@ -1,6 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
 import CustomSelect from "react-select";
+import PhoneNumber from "../PhoneNumber";
 
 import {
   CoursesFormSection,
@@ -26,7 +27,7 @@ export default function CoursesForm() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "9d8b7267-8669-4d02-b1b6-5b0c899451b4");
+    formData.append("access_key", "8f6c1fb6-53d2-464a-a828-56a069e540a4");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -118,6 +119,9 @@ export default function CoursesForm() {
             </LableContent>
             <Textarea name="message" placeholder={t("messagePlaceholder")}></Textarea>
             <Button type="submit">{t("button")}</Button>
+            <PhoneNumber
+              number="+123456789"
+            />
           </Form>
         </Wrapper>
       </CoursesFormContainer>

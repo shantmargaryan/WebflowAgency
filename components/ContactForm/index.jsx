@@ -1,6 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
-import { ContactSection, ContactContainer, Content, ContactTitle, ContactParagraph, Wrapper, SmallTitle, Form, Input, Textarea, Button, PhoneNumber } from "./styled";
+import { ContactSection, ContactContainer, Content, ContactTitle, ContactParagraph, Wrapper, SmallTitle, Form, Input, Textarea, Button } from "./styled";
+import PhoneNumber from "../PhoneNumber";
 
 
 export default function ContactForm() {
@@ -60,9 +61,9 @@ export default function ContactForm() {
             <Button type="submit">
               {t("button")}
             </Button>
-            <PhoneNumber href="tel:+37455212205">
-              +37455212205
-            </PhoneNumber>
+            <PhoneNumber
+              number="+374552122"
+            />
           </Form>
         </Wrapper>
       </ContactContainer>

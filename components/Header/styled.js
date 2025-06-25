@@ -73,6 +73,11 @@ export const PhoneNumber = styled.a`
     background-color: #fcd980;
     color: #282938;
     border-radius: 50%;
+    transition: transform 0.5s ease 0s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   `
 
 export const NavList = styled.ul`
