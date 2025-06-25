@@ -9,7 +9,6 @@ export const OverlayContainer = styled.div`
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(2px);
-  transition: backdrop-filter 0.4s ease 0s,
-  background-color 0.4s ease 0s;
+  /* backdrop-filter: blur(2px); */
+  transition:background-color 0.4s ease 0s;
 `;
