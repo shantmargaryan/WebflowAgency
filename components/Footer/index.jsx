@@ -63,8 +63,8 @@ export default function Footer() {
             <ContactTitle>
               {t('emailTitle')}
             </ContactTitle>
-            <ContactsLinks href="mailto:shnat212205@gmail.com">
-              shnat212205@gmail.com
+            <ContactsLinks href="mailto:webit.amlerning@gmail.com">
+              webit.amlerning@gmail.com
             </ContactsLinks>
           </div>
           <div>
