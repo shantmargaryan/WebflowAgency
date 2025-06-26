@@ -1,21 +1,31 @@
 import { poppins } from "@/styled/fonts";
-import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { hasLocale, NextIntlClientProvider, locale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import React from "react";
 import { notFound } from "next/navigation";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 
 export const metadata = {
+  icons: {
+    icon: "/favicon.ico",
+  },
+
+  openGraph: {
+    title: "Web development, web design, taught, SMM development, English Language, UI/UX Design",
+    description: "Web development, web design, digital agency, seo optimization, web flow, welcom to it",
+    keywords: "Վեբ կայքերի մշակում, վեբ ձեւավորում, ուսուցում, SMM զարգացում, անգլերեն լեզու, UI / UX ձեւավորում",
+  },
+
   title: {
     default: "Welcom To IT",
     template: "%s - Welcom To IT",
   },
   description: "WEBFOWFLAGYAGIEN - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ",
-  keywords: "Վեբ flow, վեբ ձեւավորում, վեբ մշակում, գործակալություն, թվային գործակալություն",
+  keywords: "Վեբ կայքերի մշակում, վեբ ձեւավորում, ուսուցում, SMM զարգացում, անգլերեն լեզու, UI / UX ձեւավորում",
   openGraph: {
     type: "website",
     locale: "am-AM",
-    url: "",
+    url: "https://www.welcometoit.am/am",
     siteName: "Welcom To IT",
     title: "Welcom To IT - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ",
     description: "Welcom To IT - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ",
@@ -32,7 +42,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://web-flow.am",
+    canonical: "https://www.welcometoit.am/am",
     languages: {
       'am-AM': '/am',
       'en-US': '/en',
