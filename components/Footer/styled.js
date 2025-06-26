@@ -37,7 +37,7 @@ export const Contact = styled.div`
   display: inline-flex;
   flex-wrap: wrap;
   gap: 2rem;
-  width: min(100%, 30rem);
+  width: min(100%, 40rem);
   padding: 1.5rem;
   background-color: ${({ theme }) => theme.colors.yellow};
 `
