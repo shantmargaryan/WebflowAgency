@@ -61,11 +61,6 @@ export default async function LocaleLayout({ children, params }) {
   return (
     <html lang={locale}>
       <body className={poppins.variable}>
-        <head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="description" content="Welcom To IT - Վեբ ձեւավորման եւ զարգացման մասնագիտական ​​ծառայություններ" />
-          <meta name="keywords" content="Վեբ կայքերի մշակում, վեբ ձեւավորում, ուսուցում, SMM զարգացում, անգլերեն լեզու, UI / UX ձեւավորում" />
-        </head>
         <NextIntlClientProvider>
           <NextThemesProvider>
             {children}
