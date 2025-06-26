@@ -120,7 +120,7 @@ export default function CoursesForm() {
             <Textarea name="message" placeholder={t("messagePlaceholder")}></Textarea>
             <Button type="submit">{t("button")}</Button>
             <PhoneNumber
-              number="+123456789"
+              number="+37498889169"
             />
           </Form>
         </Wrapper>

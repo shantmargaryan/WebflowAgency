@@ -74,6 +74,9 @@ export default function Footer() {
             <ContactsLinks href="tel:+37455212205">
               +37455212205
             </ContactsLinks>
+            <ContactsLinks href="tel:+37498889169">
+              +37498889169
+            </ContactsLinks>
           </div>
         </Contact>
         <ScrollToTop onClick={scrollToTop} isvisible={isvisible ? "true" : undefined}>
