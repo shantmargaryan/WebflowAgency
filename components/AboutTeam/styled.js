@@ -37,8 +37,8 @@ export const TeamItem = styled.li`
   `
 
 export const TeamImg = styled(Img)`
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 `
 
